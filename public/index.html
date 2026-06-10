@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explora rutas de Brisbane a Bogotá con escalas turísticas.">
+  <title>BNE → BOG Travel Planner</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <a class="brand" href="/">BNE <span>→</span> BOG</a>
+      <a class="github-link" href="https://github.com/DavidMume/colombia-australia-travel-planner" target="_blank" rel="noreferrer">Ver código</a>
+    </nav>
+    <div class="hero-copy">
+      <p class="eyebrow">Australia → Colombia</p>
+      <h1>Convierte las escalas en parte del viaje.</h1>
+      <p>Compara rutas desde Brisbane a Bogotá y descubre escalas con potencial turístico, temporadas recomendadas y requisitos orientativos.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel filters" aria-label="Filtros de rutas">
+      <label>
+        Origen
+        <select id="origin"></select>
+      </label>
+      <label>
+        Destino
+        <select id="destination"></select>
+      </label>
+      <label>
+        Máximo de escalas
+        <select id="max-stops">
+          <option value="1">1 escala</option>
+          <option value="2" selected>2 escalas</option>
+          <option value="3">3 escalas</option>
+        </select>
+      </label>
+      <label>
+        Mes de salida
+        <select id="month"></select>
+      </label>
+      <button id="search-routes" type="button">Buscar rutas</button>
+    </section>
+
+    <section class="metrics" aria-label="Resumen">
+      <article><span id="route-count">0</span><small>rutas encontradas</small></article>
+      <article><span id="best-score">—</span><small>mejor puntuación</small></article>
+      <article><span id="tourist-stops">0</span><small>escalas turísticas</small></article>
+    </section>
+
+    <section class="data-notice">
+      <strong>Rutas verificadas</strong>
+      <span>Cada tramo mostrado tiene un vuelo directo vigente o programado en FlightsFrom. Debes confirmar que los horarios conecten y que la combinación pueda comprarse para tus fechas.</span>
+    </section>
+
+    <section class="layout">
+      <div>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Opciones recomendadas</p>
+            <h2>Rutas disponibles</h2>
+          </div>
+          <select id="sort" aria-label="Ordenar rutas">
+            <option value="score">Mejor puntuación</option>
+            <option value="stops">Menos escalas</option>
+            <option value="duration">Menor duración</option>
+          </select>
+        </div>
+        <div id="routes" class="route-list"></div>
+      </div>
+
+      <aside class="map-column">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Vista de ruta</p>
+            <h2 id="map-title">Mapa</h2>
+          </div>
+        </div>
+        <div id="map"></div>
+        <p class="map-help">Selecciona una ruta para verla en el mapa.</p>
+      </aside>
+    </section>
+
+    <section class="disclaimer">
+      <strong>Antes de comprar</strong>
+      <p>Las rutas, duraciones y condiciones migratorias son orientativas y pueden cambiar. Verifica precios, disponibilidad, visas y requisitos de tránsito con aerolíneas y fuentes oficiales.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>BNE → BOG Travel Planner</span>
+    <span>Hecho para explorar, no para reemplazar fuentes oficiales.</span>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

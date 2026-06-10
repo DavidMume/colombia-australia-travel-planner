@@ -90,6 +90,39 @@ Luego abre tu navegador en `http://localhost:8501`
 
 ---
 
+## ☁️ Publicar gratis en Cloudflare Pages
+
+El proyecto incluye una versión web estática en `public/`, compatible con
+Cloudflare Pages. La web usa `data/verified_routes.json`: cada ruta está formada
+únicamente por segmentos directos vigentes o programados comprobados en
+FlightsFrom. No se generan trayectos invirtiendo rutas.
+
+### Probar la versión estática localmente
+
+```bash
+bash scripts/build-pages.sh
+python -m http.server 8000 --directory dist
+```
+
+Abre `http://localhost:8000`.
+
+### Configuración de Cloudflare Pages
+
+1. Sube los cambios a GitHub.
+2. En Cloudflare, abre **Workers & Pages → Create → Pages → Connect to Git**.
+3. Selecciona este repositorio.
+4. Usa estos valores:
+
+| Campo | Valor |
+|-------|-------|
+| Framework preset | None |
+| Build command | `bash scripts/build-pages.sh` |
+| Build output directory | `dist` |
+
+Cada nuevo push a GitHub actualizará automáticamente la página.
+
+---
+
 ## 📓 Explorar el notebook
 
 ```bash

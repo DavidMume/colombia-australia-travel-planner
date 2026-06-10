@@ -1,6 +1,33 @@
 {
   "routes": [
     {
+      "id": "AUS-COL-001",
+      "name": "Brisbane → Doha → Bogotá",
+      "origin": "BNE",
+      "destination": "BOG",
+      "stopovers": ["DOH"],
+      "total_stops": 1,
+      "approximate_duration_hours": 34,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [7, 8, 9, 10, 11, 12],
+        "notes": "Conexión programada desde el 22 de julio de 2026. Doha es más agradable para turismo entre noviembre y marzo."
+      },
+      "airlines_example": ["Qatar Airways", "Virgin Australia"],
+      "visa_complexity": "medium",
+      "visa_notes": "Doha: verifica los requisitos de entrada o tránsito según la duración de la escala y tu pasaporte. Confirma la disponibilidad y condiciones directamente con Qatar Airways.",
+      "score": 92,
+      "availability_status": "scheduled",
+      "available_from": "2026-07-22",
+      "source_name": "Qatar Airways / itinerario programado",
+      "source_url": "https://www.qatarairways.com/",
+      "highlights": [
+        "Una sola escala entre Brisbane y Bogotá",
+        "Doha permite convertir una conexión larga en parada turística",
+        "El nuevo tramo Doha–Bogotá está programado desde el 22 de julio de 2026"
+      ]
+    },
+    {
       "id": "COL-AUS-001",
       "name": "Bogotá → Estambul → Seúl → Brisbane",
       "origin": "BOG",
@@ -233,7 +260,7 @@
   ],
   "metadata": {
     "last_updated": "2026-06-10",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "disclaimer": "Esta información es orientativa. Las condiciones de visa, rutas y precios cambian constantemente. Siempre verifica con fuentes oficiales, aerolíneas y consulados antes de comprar tus tiquetes.",
     "data_sources": ["Manual/curado", "Preparado para integración con APIs externas"]
   }

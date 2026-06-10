@@ -1,0 +1,245 @@
+{
+  "routes": [
+    {
+      "id": "BNE-BOG-DOH",
+      "name": "Brisbane → Doha → Bogotá",
+      "origin": "BNE",
+      "destination": "BOG",
+      "stopovers": ["DOH"],
+      "total_stops": 1,
+      "approximate_duration_hours": 32,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [7, 8, 9, 10, 11, 12],
+        "notes": "Doha–Bogotá es una ruta nueva programada desde el 26 de julio de 2026. Confirma que los horarios permitan la conexión."
+      },
+      "airlines_example": ["Qatar Airways"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de tránsito o entrada a Catar según la duración de la escala y tu pasaporte.",
+      "score": 95,
+      "availability_status": "scheduled",
+      "available_from": "2026-07-26",
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "BNE",
+          "to": "DOH",
+          "duration": "14h 35m",
+          "airlines": ["Qatar Airways"],
+          "source_url": "https://www.flightsfrom.com/BNE-DOH"
+        },
+        {
+          "from": "DOH",
+          "to": "BOG",
+          "duration": "16h 43m",
+          "airlines": ["Qatar Airways"],
+          "available_from": "2026-07-26",
+          "service_note": "Servicio comercializado como directo; incluye parada intermedia en Caracas sin contarla como conexión.",
+          "source_url": "https://www.flightsfrom.com/DOH-BOG"
+        }
+      ],
+      "highlights": [
+        "Una sola escala",
+        "Todos los segmentos directos aparecen en FlightsFrom",
+        "Doha permite una parada turística"
+      ]
+    },
+    {
+      "id": "BNE-BOG-DFW",
+      "name": "Brisbane → Dallas → Bogotá",
+      "origin": "BNE",
+      "destination": "BOG",
+      "stopovers": ["DFW"],
+      "total_stops": 1,
+      "approximate_duration_hours": 23,
+      "tourist_potential": "medium",
+      "season_recommendations": {
+        "best_months": [11, 12, 1, 2, 3],
+        "notes": "Brisbane–Dallas está programada desde el 27 de octubre de 2026. Requiere cumplir requisitos migratorios de Estados Unidos incluso para tránsito."
+      },
+      "airlines_example": ["American Airlines", "Avianca"],
+      "visa_complexity": "high",
+      "visa_notes": "Estados Unidos normalmente exige visa válida para tránsito a ciudadanos colombianos. Verifica antes de reservar.",
+      "score": 78,
+      "availability_status": "scheduled",
+      "available_from": "2026-10-27",
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "BNE",
+          "to": "DFW",
+          "duration": "15h 25m",
+          "airlines": ["American Airlines"],
+          "available_from": "2026-10-27",
+          "source_url": "https://www.flightsfrom.com/BNE-DFW"
+        },
+        {
+          "from": "DFW",
+          "to": "BOG",
+          "duration": "5h 54m",
+          "airlines": ["American Airlines", "Avianca"],
+          "source_url": "https://www.flightsfrom.com/DFW-BOG"
+        }
+      ],
+      "highlights": [
+        "Una sola escala",
+        "Dallas–Bogotá tiene vuelos directos diarios",
+        "Requiere visa estadounidense"
+      ]
+    },
+    {
+      "id": "BNE-BOG-AKL-SCL",
+      "name": "Brisbane → Auckland → Santiago → Bogotá",
+      "origin": "BNE",
+      "destination": "BOG",
+      "stopovers": ["AKL", "SCL"],
+      "total_stops": 2,
+      "approximate_duration_hours": 25,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 10, 11, 12],
+        "notes": "Ruta por el Pacífico con segmentos directos vigentes. La conexión Auckland–Santiago opera algunos días por semana."
+      },
+      "airlines_example": ["Air New Zealand", "Qantas", "Jetstar", "LATAM", "Avianca"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de tránsito o entrada para Nueva Zelanda y Chile según tu pasaporte y la duración de cada escala.",
+      "score": 88,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "BNE",
+          "to": "AKL",
+          "duration": "3h 20m",
+          "airlines": ["Air New Zealand", "Qantas", "Jetstar", "China Airlines"],
+          "source_url": "https://www.flightsfrom.com/BNE-AKL"
+        },
+        {
+          "from": "AKL",
+          "to": "SCL",
+          "duration": "10h 55m",
+          "airlines": ["LATAM"],
+          "source_url": "https://www.flightsfrom.com/AKL-SCL"
+        },
+        {
+          "from": "SCL",
+          "to": "BOG",
+          "duration": "6h 25m",
+          "airlines": ["Avianca", "LATAM"],
+          "source_url": "https://www.flightsfrom.com/SCL-BOG"
+        }
+      ],
+      "highlights": [
+        "Todos los segmentos directos aparecen vigentes en FlightsFrom",
+        "Escalas turísticas en Auckland y Santiago",
+        "Evita tránsito por Estados Unidos"
+      ]
+    },
+    {
+      "id": "BNE-BOG-SIN-IST",
+      "name": "Brisbane → Singapur → Estambul → Bogotá",
+      "origin": "BNE",
+      "destination": "BOG",
+      "stopovers": ["SIN", "IST"],
+      "total_stops": 2,
+      "approximate_duration_hours": 37,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [3, 4, 5, 9, 10, 11],
+        "notes": "Singapur y Estambul son hubs con vuelos frecuentes. Confirma que los horarios formen una conexión razonable."
+      },
+      "airlines_example": ["Singapore Airlines", "Turkish Airlines", "Qantas"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de entrada o tránsito para Singapur y Turquía.",
+      "score": 90,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "BNE",
+          "to": "SIN",
+          "duration": "8h 20m",
+          "airlines": ["Qantas", "Singapore Airlines"],
+          "source_url": "https://www.flightsfrom.com/BNE-SIN"
+        },
+        {
+          "from": "SIN",
+          "to": "IST",
+          "duration": "11h 55m",
+          "airlines": ["Singapore Airlines", "Turkish Airlines"],
+          "source_url": "https://www.flightsfrom.com/SIN-IST"
+        },
+        {
+          "from": "IST",
+          "to": "BOG",
+          "duration": "13h 40m",
+          "airlines": ["Turkish Airlines"],
+          "service_note": "Servicio comercializado como directo; algunos vuelos pueden incluir una parada técnica según la operación.",
+          "source_url": "https://www.flightsfrom.com/IST-BOG"
+        }
+      ],
+      "highlights": [
+        "Escalas turísticas en Singapur y Estambul",
+        "Todos los tramos aparecen en FlightsFrom",
+        "Múltiples frecuencias diarias en los primeros tramos"
+      ]
+    },
+    {
+      "id": "BNE-BOG-DXB-IST",
+      "name": "Brisbane → Dubái → Estambul → Bogotá",
+      "origin": "BNE",
+      "destination": "BOG",
+      "stopovers": ["DXB", "IST"],
+      "total_stops": 2,
+      "approximate_duration_hours": 35,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 10, 11, 12],
+        "notes": "Dubái y Estambul tienen conexiones frecuentes y alto potencial turístico."
+      },
+      "airlines_example": ["Emirates", "Turkish Airlines", "flydubai"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de entrada o tránsito para Emiratos Árabes Unidos y Turquía.",
+      "score": 89,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "BNE",
+          "to": "DXB",
+          "duration": "14h 35m",
+          "airlines": ["Emirates"],
+          "source_url": "https://www.flightsfrom.com/BNE-DXB"
+        },
+        {
+          "from": "DXB",
+          "to": "IST",
+          "duration": "5h 15m",
+          "airlines": ["Emirates", "Turkish Airlines", "flydubai"],
+          "source_url": "https://www.flightsfrom.com/DXB-IST"
+        },
+        {
+          "from": "IST",
+          "to": "BOG",
+          "duration": "13h 40m",
+          "airlines": ["Turkish Airlines"],
+          "service_note": "Servicio comercializado como directo; algunos vuelos pueden incluir una parada técnica según la operación.",
+          "source_url": "https://www.flightsfrom.com/IST-BOG"
+        }
+      ],
+      "highlights": [
+        "Escalas turísticas en Dubái y Estambul",
+        "Vuelos frecuentes en todos los tramos",
+        "Todos los tramos aparecen en FlightsFrom"
+      ]
+    }
+  ],
+  "metadata": {
+    "last_verified": "2026-06-11",
+    "source": "FlightsFrom.com",
+    "disclaimer": "Los segmentos directos aparecen programados en FlightsFrom al verificar la base. Esto no garantiza que formen una conexión vendida en un solo tiquete ni que operen todos los días."
+  }
+}
