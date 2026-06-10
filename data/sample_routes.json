@@ -1,0 +1,240 @@
+{
+  "routes": [
+    {
+      "id": "COL-AUS-001",
+      "name": "Bogotá → Estambul → Seúl → Brisbane",
+      "origin": "BOG",
+      "destination": "BNE",
+      "stopovers": ["IST", "ICN"],
+      "total_stops": 2,
+      "approximate_duration_hours": 38,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [3, 4, 5, 9, 10, 11],
+        "notes": "Primavera en Turquía (marzo-mayo) y otoño en Corea (sept-nov) son ideales para turismo."
+      },
+      "airlines_example": ["Turkish Airlines", "Korean Air", "Qantas"],
+      "visa_complexity": "medium",
+      "visa_notes": "Turquía: e-visa o visa on arrival para colombianos (verificar). Corea: sin visa hasta 90 días (verificar). Australia: ETA requerida.",
+      "score": 82,
+      "highlights": [
+        "Estambul: mezcla única de Europa y Asia, gastronomía, arquitectura otomana",
+        "Seúl: tecnología, K-culture, gastronomía, naturaleza",
+        "Una de las rutas más populares para colombianos"
+      ]
+    },
+    {
+      "id": "COL-AUS-002",
+      "name": "Bogotá → Dubái → Sydney",
+      "origin": "BOG",
+      "destination": "SYD",
+      "stopovers": ["DXB"],
+      "total_stops": 1,
+      "approximate_duration_hours": 32,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [10, 11, 12, 1, 2, 3],
+        "notes": "Invierno europeo es temporada perfecta en Dubái. En Sydney el verano (dic-feb) es espectacular."
+      },
+      "airlines_example": ["Emirates"],
+      "visa_complexity": "low",
+      "visa_notes": "Dubái: tránsito generalmente sin visa en zona internacional. Para salir a la ciudad se requiere visa UAE. Australia: ETA requerida.",
+      "score": 88,
+      "highlights": [
+        "Dubái: arquitectura futurista, lujo, desierto, playas",
+        "Conexión directa BOG-DXB con Emirates",
+        "Sydney: Opera House, Bondi Beach, clima excelente"
+      ]
+    },
+    {
+      "id": "COL-AUS-003",
+      "name": "Bogotá → Doha → Melbourne",
+      "origin": "BOG",
+      "destination": "MEL",
+      "stopovers": ["DOH"],
+      "total_stops": 1,
+      "approximate_duration_hours": 34,
+      "tourist_potential": "medium",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 10, 11, 12],
+        "notes": "Doha es transitable todo el año. Melbourne: verano austral (dic-feb) ideal."
+      },
+      "airlines_example": ["Qatar Airways"],
+      "visa_complexity": "low",
+      "visa_notes": "Doha: tránsito generalmente sin visa. Para ciudad se puede obtener e-visa. Australia: ETA requerida.",
+      "score": 85,
+      "highlights": [
+        "Qatar Airways: una de las mejores aerolíneas del mundo",
+        "Doha: arquitetura moderna, Souq Waqif, desierto",
+        "Melbourne: café culture, galerías, Great Ocean Road"
+      ]
+    },
+    {
+      "id": "COL-AUS-004",
+      "name": "Bogotá → Singapur → Perth",
+      "origin": "BOG",
+      "destination": "PER",
+      "stopovers": ["SIN"],
+      "total_stops": 1,
+      "approximate_duration_hours": 36,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [4, 5, 6, 7, 8, 9],
+        "notes": "Singapur es bueno todo el año. Perth: primavera austral (sept-nov) con flores silvestres espectaculares."
+      },
+      "airlines_example": ["Singapore Airlines"],
+      "visa_complexity": "low",
+      "visa_notes": "Singapur: colombianos hasta 30 días sin visa (verificar). Tránsito generalmente sin visa. Australia: ETA requerida.",
+      "score": 87,
+      "highlights": [
+        "Singapur: Gardens by the Bay, gastronomía, Sentosa",
+        "Singapore Airlines: top-rated mundial",
+        "Perth: la ciudad australiana más cercana a Asia, playas increíbles"
+      ]
+    },
+    {
+      "id": "COL-AUS-005",
+      "name": "Bogotá → Madrid → Singapur → Sydney",
+      "origin": "BOG",
+      "destination": "SYD",
+      "stopovers": ["MAD", "SIN"],
+      "total_stops": 2,
+      "approximate_duration_hours": 42,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [3, 4, 5, 9, 10],
+        "notes": "Primavera/otoño en Madrid ideales. Singapur todo el año. Sydney: primavera austral (sept-nov)."
+      },
+      "airlines_example": ["Iberia", "Singapore Airlines"],
+      "visa_complexity": "high",
+      "visa_notes": "España/Madrid: se requiere visa Schengen para colombianos (verificar). Singapur: generalmente sin visa. Australia: ETA requerida.",
+      "score": 70,
+      "highlights": [
+        "Ideal para quienes tienen visa Schengen",
+        "Madrid: Prado, tapas, vida nocturna",
+        "Opción para combinar Europa + Asia + Oceanía"
+      ]
+    },
+    {
+      "id": "COL-AUS-006",
+      "name": "Medellín → Bogotá → Dubái → Brisbane",
+      "origin": "MDE",
+      "destination": "BNE",
+      "stopovers": ["BOG", "DXB"],
+      "total_stops": 2,
+      "approximate_duration_hours": 36,
+      "tourist_potential": "medium",
+      "season_recommendations": {
+        "best_months": [10, 11, 12, 1, 2],
+        "notes": "BOG-DXB disponible todo el año con Emirates. Brisbane: verano austral (dic-feb)."
+      },
+      "airlines_example": ["Avianca", "Emirates"],
+      "visa_complexity": "low",
+      "visa_notes": "Colombia a Colombia: doméstico. Dubái: tránsito sin visa en zona internacional. Australia: ETA requerida.",
+      "score": 80,
+      "highlights": [
+        "Salida desde Medellín con conexión doméstica en Bogotá",
+        "Opciones de estadía en Dubái antes de continuar",
+        "Brisbane: clima cálido, Gold Coast cercano, naturaleza"
+      ]
+    },
+    {
+      "id": "COL-AUS-007",
+      "name": "Bogotá → Estambul → Singapur → Melbourne",
+      "origin": "BOG",
+      "destination": "MEL",
+      "stopovers": ["IST", "SIN"],
+      "total_stops": 2,
+      "approximate_duration_hours": 40,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [3, 4, 5, 9, 10],
+        "notes": "Primavera turca y otoño son perfectos. Singapur todo el año. Melbourne: meses intermedios."
+      },
+      "airlines_example": ["Turkish Airlines", "Singapore Airlines"],
+      "visa_complexity": "medium",
+      "visa_notes": "Turquía: e-visa o visa on arrival (verificar). Singapur: generalmente sin visa. Australia: ETA requerida.",
+      "score": 84,
+      "highlights": [
+        "Combina dos de las mejores aerolíneas del mundo",
+        "Ruta por tres continentes con alto valor turístico",
+        "Melbourne: multicultural, gastronomía, arte callejero"
+      ]
+    },
+    {
+      "id": "COL-AUS-008",
+      "name": "Bogotá → Tokio → Sydney",
+      "origin": "BOG",
+      "destination": "SYD",
+      "stopovers": ["NRT"],
+      "total_stops": 1,
+      "approximate_duration_hours": 36,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [3, 4, 10, 11],
+        "notes": "Tokio: sakura en marzo-abril y koyo (hojas rojas) en oct-nov. Sydney: primavera austral sept-nov."
+      },
+      "airlines_example": ["Japan Airlines", "ANA", "Qantas"],
+      "visa_complexity": "low",
+      "visa_notes": "Japón: colombianos hasta 90 días sin visa (verificar acuerdo bilateral). Australia: ETA requerida.",
+      "score": 89,
+      "highlights": [
+        "Japón sin visa para colombianos (verificar vigencia)",
+        "Tokio: tecnología, cultura, gastronomía, anime, templos",
+        "Una de las rutas más emocionantes culturalmente"
+      ]
+    },
+    {
+      "id": "COL-AUS-009",
+      "name": "Cali → Bogotá → Doha → Perth",
+      "origin": "CLO",
+      "destination": "PER",
+      "stopovers": ["BOG", "DOH"],
+      "total_stops": 2,
+      "approximate_duration_hours": 38,
+      "tourist_potential": "medium",
+      "season_recommendations": {
+        "best_months": [9, 10, 11, 12],
+        "notes": "Doha: otoño-invierno del hemisferio norte más fresco. Perth: primavera austral (sept-nov) ideal."
+      },
+      "airlines_example": ["Avianca", "Qatar Airways"],
+      "visa_complexity": "low",
+      "visa_notes": "Doha: tránsito generalmente sin visa. Australia: ETA requerida.",
+      "score": 78,
+      "highlights": [
+        "Salida desde Cali con conexión en Bogotá",
+        "Qatar Airways: servicio premium destacado",
+        "Perth: puerta de entrada a Australia occidental, más cercana a Asia"
+      ]
+    },
+    {
+      "id": "COL-AUS-010",
+      "name": "Bogotá → Hong Kong → Brisbane",
+      "origin": "BOG",
+      "destination": "BNE",
+      "stopovers": ["HKG"],
+      "total_stops": 1,
+      "approximate_duration_hours": 34,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [10, 11, 12, 1, 2, 3],
+        "notes": "Hong Kong: otoño-invierno (oct-mar) más fresco y agradable. Brisbane: primavera-verano."
+      },
+      "airlines_example": ["Cathay Pacific"],
+      "visa_complexity": "low",
+      "visa_notes": "Hong Kong: colombianos hasta 14 días sin visa (verificar). Australia: ETA requerida.",
+      "score": 83,
+      "highlights": [
+        "Cathay Pacific: aerolínea premium asiática",
+        "Hong Kong: skyline icónico, dim sum, mercados nocturnos",
+        "Brisbane: ciudad moderna, Sunshine Coast, Great Barrier Reef cercano"
+      ]
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-06-10",
+    "version": "1.0.0",
+    "disclaimer": "Esta información es orientativa. Las condiciones de visa, rutas y precios cambian constantemente. Siempre verifica con fuentes oficiales, aerolíneas y consulados antes de comprar tus tiquetes.",
+    "data_sources": ["Manual/curado", "Preparado para integración con APIs externas"]
+  }
+}
