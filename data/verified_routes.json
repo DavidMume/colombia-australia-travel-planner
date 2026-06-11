@@ -951,6 +951,182 @@
         "Escalas turísticas en Singapur y Estambul",
         "Todos los tramos aparecen en FlightsFrom"
       ]
+    },
+    {
+      "id": "SYD-BOG-LAX",
+      "name": "Sídney → Los Ángeles → Bogotá",
+      "origin": "SYD",
+      "destination": "BOG",
+      "stopovers": ["LAX"],
+      "total_stops": 1,
+      "approximate_duration_hours": 20,
+      "tourist_potential": "medium",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 9, 10, 11, 12],
+        "notes": "Los Ángeles tiene buen clima todo el año. Verifica tiempos de conexión en LAX, que puede ser concurrido."
+      },
+      "airlines_example": ["Qantas", "American Airlines", "Avianca"],
+      "visa_complexity": "high",
+      "visa_notes": "Se requiere visa de turista (B-1/B-2) o visa de tránsito (C) para ciudadanos colombianos que transiten o ingresen a EE.UU. Verifica con la embajada antes de reservar.",
+      "score": 72,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "SYD",
+          "to": "LAX",
+          "duration": "13h 45m",
+          "airlines": ["Qantas", "American Airlines"],
+          "source_url": "https://www.flightsfrom.com/SYD-LAX"
+        },
+        {
+          "from": "LAX",
+          "to": "BOG",
+          "duration": "5h 40m",
+          "airlines": ["Avianca", "American Airlines"],
+          "source_url": "https://www.flightsfrom.com/LAX-BOG"
+        }
+      ],
+      "highlights": [
+        "Qantas opera vuelo directo diario Sídney–Los Ángeles",
+        "Avianca conecta Los Ángeles directamente con Bogotá",
+        "Requiere visa estadounidense"
+      ]
+    },
+    {
+      "id": "SYD-BOG-SFO",
+      "name": "Sídney → San Francisco → Bogotá",
+      "origin": "SYD",
+      "destination": "BOG",
+      "stopovers": ["SFO"],
+      "total_stops": 1,
+      "approximate_duration_hours": 22,
+      "tourist_potential": "medium",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 9, 10, 11],
+        "notes": "San Francisco tiene clima templado. Confirma disponibilidad de conexión directa SFO–BOG con Avianca."
+      },
+      "airlines_example": ["United", "Air New Zealand", "Avianca"],
+      "visa_complexity": "high",
+      "visa_notes": "Se requiere visa de turista (B-1/B-2) o visa de tránsito (C) para ciudadanos colombianos que transiten o ingresen a EE.UU.",
+      "score": 70,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "SYD",
+          "to": "SFO",
+          "duration": "14h 55m",
+          "airlines": ["United", "Air New Zealand"],
+          "source_url": "https://www.flightsfrom.com/SYD-SFO"
+        },
+        {
+          "from": "SFO",
+          "to": "BOG",
+          "duration": "6h 25m",
+          "airlines": ["Avianca", "United"],
+          "source_url": "https://www.flightsfrom.com/SFO-BOG"
+        }
+      ],
+      "highlights": [
+        "United y Air New Zealand operan Sídney–San Francisco",
+        "Conexión directa hacia Bogotá desde San Francisco",
+        "Requiere visa estadounidense"
+      ]
+    },
+    {
+      "id": "MEL-BOG-LAX",
+      "name": "Melbourne → Los Ángeles → Bogotá",
+      "origin": "MEL",
+      "destination": "BOG",
+      "stopovers": ["LAX"],
+      "total_stops": 1,
+      "approximate_duration_hours": 22,
+      "tourist_potential": "medium",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 9, 10, 11, 12],
+        "notes": "Los Ángeles tiene buen clima todo el año. Verifica tiempos de conexión y disponibilidad de vuelo LAX–BOG."
+      },
+      "airlines_example": ["Qantas", "Avianca", "American Airlines"],
+      "visa_complexity": "high",
+      "visa_notes": "Se requiere visa de turista (B-1/B-2) o visa de tránsito (C) para ciudadanos colombianos que transiten o ingresen a EE.UU.",
+      "score": 71,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "MEL",
+          "to": "LAX",
+          "duration": "15h 40m",
+          "airlines": ["Qantas"],
+          "source_url": "https://www.flightsfrom.com/MEL-LAX"
+        },
+        {
+          "from": "LAX",
+          "to": "BOG",
+          "duration": "5h 40m",
+          "airlines": ["Avianca", "American Airlines"],
+          "source_url": "https://www.flightsfrom.com/LAX-BOG"
+        }
+      ],
+      "highlights": [
+        "Qantas opera vuelo directo Melbourne–Los Ángeles",
+        "Avianca conecta Los Ángeles directamente con Bogotá",
+        "Requiere visa estadounidense"
+      ]
+    },
+    {
+      "id": "SYD-BOG-KUL-IST",
+      "name": "Sídney → Kuala Lumpur → Estambul → Bogotá",
+      "origin": "SYD",
+      "destination": "BOG",
+      "stopovers": ["KUL", "IST"],
+      "total_stops": 2,
+      "approximate_duration_hours": 34,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [3, 4, 5, 9, 10, 11],
+        "notes": "Turkish Airlines opera o está programando esta ruta vía Kuala Lumpur. Confirma disponibilidad y fechas directamente con Turkish Airlines."
+      },
+      "airlines_example": ["Turkish Airlines", "Malaysia Airlines"],
+      "visa_complexity": "medium",
+      "visa_notes": "Kuala Lumpur: colombianos pueden ingresar sin visa hasta 30 días (verificar). Turquía: e-visa disponible. Australia: confirma con Turkish Airlines.",
+      "score": 85,
+      "availability_status": "scheduled",
+      "available_from": null,
+      "source_name": "Anuncio Turkish Airlines / FlightsFrom",
+      "segments": [
+        {
+          "from": "SYD",
+          "to": "KUL",
+          "duration": "8h 10m",
+          "airlines": ["Turkish Airlines", "Malaysia Airlines"],
+          "source_url": "https://www.flightsfrom.com/SYD-KUL"
+        },
+        {
+          "from": "KUL",
+          "to": "IST",
+          "duration": "10h 45m",
+          "airlines": ["Turkish Airlines"],
+          "source_url": "https://www.flightsfrom.com/KUL-IST"
+        },
+        {
+          "from": "IST",
+          "to": "BOG",
+          "duration": "13h 40m",
+          "airlines": ["Turkish Airlines"],
+          "service_note": "Servicio comercializado como directo; algunos vuelos pueden incluir una parada técnica.",
+          "source_url": "https://www.flightsfrom.com/IST-BOG"
+        }
+      ],
+      "highlights": [
+        "Turkish Airlines planea operar esta ruta vía Kuala Lumpur desde Sídney",
+        "Kuala Lumpur y Estambul: dos escalas con alto potencial turístico",
+        "Confirma disponibilidad y fechas directamente con Turkish Airlines"
+      ]
     }
   ],
   "metadata": {

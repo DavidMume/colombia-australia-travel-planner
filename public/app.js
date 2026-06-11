@@ -114,12 +114,16 @@ function applyFilters() {
     updateHubOptions();
   }
 
+  const includeUS = document.getElementById("include-us").checked;
+  const US_AIRPORTS = new Set(["LAX", "SFO", "DFW", "JFK", "MIA", "ORD", "IAH", "ATL", "SEA"]);
+
   state.filtered = state.routes
     .filter(route =>
       route.origin === origin &&
       route.destination === destination &&
       route.total_stops <= maxStops &&
-      isAvailableInMonth(route, month)
+      isAvailableInMonth(route, month) &&
+      (includeUS || !route.stopovers.some(c => US_AIRPORTS.has(c)))
     )
     .map(route => {
       const scoreBreakdown = calculateScoreBreakdown(route, month);
@@ -292,6 +296,7 @@ async function init() {
   ).join("");
   document.getElementById("search-routes").addEventListener("click", applyFilters);
   document.getElementById("sort").addEventListener("change", applyFilters);
+  document.getElementById("include-us").addEventListener("change", applyFilters);
   document.getElementById("hub-select").addEventListener("change", renderHubBridges);
   document.getElementById("bridge-destination").addEventListener("change", updateHubOptions);
   applyFilters();

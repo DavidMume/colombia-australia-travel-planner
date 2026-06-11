@@ -102,11 +102,41 @@ main {
 
 .filters {
   display: grid;
-  grid-template-columns: repeat(4, 1fr) auto;
+  grid-template-columns: repeat(4, 1fr) auto auto;
   gap: 16px;
   align-items: end;
   padding: 22px;
   border-radius: 18px;
+}
+
+.us-toggle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  cursor: pointer;
+  white-space: nowrap;
+  padding-bottom: 2px;
+}
+
+.us-toggle input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: var(--orange);
+}
+
+.us-toggle em {
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  color: #b05a00;
 }
 
 label {
