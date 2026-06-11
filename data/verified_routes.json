@@ -100,7 +100,7 @@
         "best_months": [1, 2, 3, 9, 10, 11, 12],
         "notes": "Los tres tramos aparecen vigentes. Revisa cuidadosamente los tiempos de conexión y los requisitos migratorios de Estados Unidos."
       },
-      "airlines_example": ["Qantas", "Aeromexico", "Avianca"],
+      "airlines_example": ["Qantas", "Aeroméxico", "Avianca"],
       "visa_complexity": "high",
       "visa_notes": "Estados Unidos normalmente exige visa válida incluso para tránsito. Verifica también los requisitos de entrada o tránsito de México.",
       "score": 75,
@@ -119,14 +119,14 @@
           "from": "LAX",
           "to": "MEX",
           "duration": "4h 34m",
-          "airlines": ["Aeromexico", "American Airlines", "Volaris", "VivaAerobus"],
+          "airlines": ["Aeroméxico", "American Airlines", "Volaris", "VivaAerobus"],
           "source_url": "https://www.flightsfrom.com/LAX-MEX"
         },
         {
           "from": "MEX",
           "to": "BOG",
           "duration": "4h 35m",
-          "airlines": ["Aeromexico", "Avianca"],
+          "airlines": ["Aeroméxico", "Avianca"],
           "source_url": "https://www.flightsfrom.com/MEX-BOG"
         }
       ],
@@ -149,7 +149,7 @@
         "best_months": [1, 2, 3, 9, 10, 11],
         "notes": "Los tres tramos aparecen vigentes. Revisa cuidadosamente los tiempos de conexión y los requisitos migratorios de Estados Unidos."
       },
-      "airlines_example": ["United Airlines", "Aeromexico", "Avianca"],
+      "airlines_example": ["United Airlines", "Aeroméxico", "Avianca"],
       "visa_complexity": "high",
       "visa_notes": "Estados Unidos normalmente exige visa válida incluso para tránsito. Verifica también los requisitos de entrada o tránsito de México.",
       "score": 74,
@@ -168,14 +168,14 @@
           "from": "SFO",
           "to": "MEX",
           "duration": "4h 40m",
-          "airlines": ["Aeromexico", "United Airlines"],
+          "airlines": ["Aeroméxico", "United Airlines"],
           "source_url": "https://www.flightsfrom.com/SFO-MEX"
         },
         {
           "from": "MEX",
           "to": "BOG",
           "duration": "4h 35m",
-          "airlines": ["Aeromexico", "Avianca"],
+          "airlines": ["Aeroméxico", "Avianca"],
           "source_url": "https://www.flightsfrom.com/MEX-BOG"
         }
       ],
@@ -198,7 +198,7 @@
         "best_months": [3, 4, 5, 9, 10, 11],
         "notes": "Ruta transpacífica con vuelos directos vigentes. Suele ser una alternativa costosa por incluir dos tramos intercontinentales largos; compara precios antes de reservar."
       },
-      "airlines_example": ["Qantas", "Jetstar", "Aeromexico", "ANA", "Avianca"],
+      "airlines_example": ["Qantas", "Jetstar", "Aeroméxico", "ANA", "Avianca"],
       "visa_complexity": "medium",
       "visa_notes": "Verifica requisitos de entrada o tránsito para Japón y México según tu pasaporte y la duración de las escalas.",
       "score": 79,
@@ -217,14 +217,14 @@
           "from": "NRT",
           "to": "MEX",
           "duration": "13h 20m",
-          "airlines": ["Aeromexico", "ANA"],
+          "airlines": ["Aeroméxico", "ANA"],
           "source_url": "https://www.flightsfrom.com/NRT-MEX"
         },
         {
           "from": "MEX",
           "to": "BOG",
           "duration": "5h 05m",
-          "airlines": ["Aeromexico", "Avianca"],
+          "airlines": ["Aeroméxico", "Avianca"],
           "source_url": "https://www.flightsfrom.com/MEX-BOG"
         }
       ],
@@ -294,7 +294,7 @@
       "tourist_potential": "high",
       "season_recommendations": {
         "best_months": [3, 4, 5, 9, 10, 11],
-        "notes": "Singapur y Estambul son hubs con vuelos frecuentes. Confirma que los horarios formen una conexión razonable."
+        "notes": "Singapur y Estambul son centros de conexión con vuelos frecuentes. Confirma que los horarios formen una conexión razonable."
       },
       "airlines_example": ["Singapore Airlines", "Turkish Airlines", "Qantas"],
       "visa_complexity": "medium",
@@ -385,7 +385,7 @@
     },
     {
       "id": "SYD-BOG-DOH",
-      "name": "Sídney → Doha → Bogotá",
+      "name": "Sydney → Doha → Bogotá",
       "origin": "SYD",
       "destination": "BOG",
       "stopovers": ["DOH"],
@@ -423,13 +423,13 @@
       ],
       "highlights": [
         "Una sola escala",
-        "Qatar Airways conecta directamente Sídney con Doha",
+        "Qatar Airways conecta directamente Sydney con Doha",
         "Doha permite convertir la conexión en parada turística"
       ]
     },
     {
       "id": "SYD-BOG-DFW",
-      "name": "Sídney → Dallas → Bogotá",
+      "name": "Sydney → Dallas → Bogotá",
       "origin": "SYD",
       "destination": "BOG",
       "stopovers": ["DFW"],
@@ -438,7 +438,7 @@
       "tourist_potential": "medium",
       "season_recommendations": {
         "best_months": [11, 12, 1, 2, 3],
-        "notes": "Sídney–Dallas tiene buena frecuencia con Qantas. Dallas–Bogotá opera con vuelos directos diarios."
+        "notes": "Sydney–Dallas tiene buena frecuencia con Qantas. Dallas–Bogotá opera con vuelos directos diarios."
       },
       "airlines_example": ["Qantas", "American Airlines", "Avianca"],
       "visa_complexity": "high",
@@ -465,13 +465,13 @@
       ],
       "highlights": [
         "Una sola escala",
-        "Qantas opera el tramo directo Sídney–Dallas",
+        "Qantas opera el tramo directo Sydney–Dallas",
         "Requiere visa estadounidense"
       ]
     },
     {
       "id": "SYD-BOG-AKL-SCL",
-      "name": "Sídney → Auckland → Santiago → Bogotá",
+      "name": "Sydney → Auckland → Santiago → Bogotá",
       "origin": "SYD",
       "destination": "BOG",
       "stopovers": ["AKL", "SCL"],
@@ -520,7 +520,7 @@
     },
     {
       "id": "SYD-BOG-SIN-IST",
-      "name": "Sídney → Singapur → Estambul → Bogotá",
+      "name": "Sydney → Singapur → Estambul → Bogotá",
       "origin": "SYD",
       "destination": "BOG",
       "stopovers": ["SIN", "IST"],
@@ -564,13 +564,13 @@
       ],
       "highlights": [
         "Escalas turísticas en Singapur y Estambul",
-        "Singapore Airlines opera desde Sídney con excelente servicio",
+        "Singapore Airlines opera desde Sydney con excelente servicio",
         "Todos los tramos aparecen en FlightsFrom"
       ]
     },
     {
       "id": "SYD-BOG-DXB-IST",
-      "name": "Sídney → Dubái → Estambul → Bogotá",
+      "name": "Sydney → Dubái → Estambul → Bogotá",
       "origin": "SYD",
       "destination": "BOG",
       "stopovers": ["DXB", "IST"],
@@ -613,7 +613,7 @@
         }
       ],
       "highlights": [
-        "Emirates conecta Sídney con Dubái directamente",
+        "Emirates conecta Sydney con Dubái directamente",
         "Escalas turísticas en Dubái y Estambul",
         "Todos los tramos aparecen en FlightsFrom"
       ]
@@ -1143,7 +1143,7 @@
     },
     {
       "id": "SYD-BOG-LAX-MEX",
-      "name": "Sídney → Los Ángeles → Ciudad de México → Bogotá",
+      "name": "Sydney → Los Ángeles → Ciudad de México → Bogotá",
       "origin": "SYD",
       "destination": "BOG",
       "stopovers": ["LAX", "MEX"],
@@ -1154,9 +1154,9 @@
         "best_months": [1, 2, 3, 9, 10, 11, 12],
         "notes": "Los Ángeles y Ciudad de México permiten convertir ambas conexiones en paradas turísticas. Verifica tiempos de conexión."
       },
-      "airlines_example": ["Qantas", "Aeromexico", "Avianca"],
+      "airlines_example": ["Qantas", "Aeroméxico", "Avianca"],
       "visa_complexity": "high",
-      "visa_notes": "Se requiere visa de turista (B-1/B-2) o visa de tránsito (C) para ciudadanos colombianos que transiten o ingresen a EE.UU. Verifica con la embajada antes de reservar.",
+      "visa_notes": "Se requiere visa de turista (B-1/B-2) o visa de tránsito (C) para ciudadanos colombianos que transiten o ingresen a EE. UU. Verifica con la embajada antes de reservar.",
       "score": 72,
       "availability_status": "verified",
       "available_from": null,
@@ -1173,26 +1173,26 @@
           "from": "LAX",
           "to": "MEX",
           "duration": "4h 34m",
-          "airlines": ["Aeromexico", "American Airlines", "Volaris", "VivaAerobus"],
+          "airlines": ["Aeroméxico", "American Airlines", "Volaris", "VivaAerobus"],
           "source_url": "https://www.flightsfrom.com/LAX-MEX"
         },
         {
           "from": "MEX",
           "to": "BOG",
           "duration": "4h 35m",
-          "airlines": ["Aeromexico", "Avianca"],
+          "airlines": ["Aeroméxico", "Avianca"],
           "source_url": "https://www.flightsfrom.com/MEX-BOG"
         }
       ],
       "highlights": [
-        "Qantas opera vuelo directo diario Sídney–Los Ángeles",
+        "Qantas opera vuelo directo diario Sydney–Los Ángeles",
         "Conexiones vigentes vía Ciudad de México hacia Bogotá",
         "Requiere visa estadounidense"
       ]
     },
     {
       "id": "SYD-BOG-SFO-MEX",
-      "name": "Sídney → San Francisco → Ciudad de México → Bogotá",
+      "name": "Sydney → San Francisco → Ciudad de México → Bogotá",
       "origin": "SYD",
       "destination": "BOG",
       "stopovers": ["SFO", "MEX"],
@@ -1203,9 +1203,9 @@
         "best_months": [1, 2, 3, 9, 10, 11],
         "notes": "San Francisco y Ciudad de México permiten convertir ambas conexiones en paradas turísticas. Verifica tiempos de conexión."
       },
-      "airlines_example": ["United", "Air New Zealand", "Aeromexico", "Avianca"],
+      "airlines_example": ["United", "Air New Zealand", "Aeroméxico", "Avianca"],
       "visa_complexity": "high",
-      "visa_notes": "Se requiere visa de turista (B-1/B-2) o visa de tránsito (C) para ciudadanos colombianos que transiten o ingresen a EE.UU.",
+      "visa_notes": "Se requiere visa de turista (B-1/B-2) o visa de tránsito (C) para ciudadanos colombianos que transiten o ingresen a EE. UU.",
       "score": 70,
       "availability_status": "verified",
       "available_from": null,
@@ -1222,19 +1222,19 @@
           "from": "SFO",
           "to": "MEX",
           "duration": "4h 40m",
-          "airlines": ["Aeromexico", "United Airlines"],
+          "airlines": ["Aeroméxico", "United Airlines"],
           "source_url": "https://www.flightsfrom.com/SFO-MEX"
         },
         {
           "from": "MEX",
           "to": "BOG",
           "duration": "4h 35m",
-          "airlines": ["Aeromexico", "Avianca"],
+          "airlines": ["Aeroméxico", "Avianca"],
           "source_url": "https://www.flightsfrom.com/MEX-BOG"
         }
       ],
       "highlights": [
-        "United y Air New Zealand operan Sídney–San Francisco",
+        "United y Air New Zealand operan Sydney–San Francisco",
         "Conexiones vigentes vía Ciudad de México hacia Bogotá",
         "Requiere visa estadounidense"
       ]
@@ -1252,9 +1252,9 @@
         "best_months": [1, 2, 3, 9, 10, 11, 12],
         "notes": "Los Ángeles y Ciudad de México permiten convertir ambas conexiones en paradas turísticas. Verifica tiempos de conexión."
       },
-      "airlines_example": ["Qantas", "Aeromexico", "Avianca"],
+      "airlines_example": ["Qantas", "Aeroméxico", "Avianca"],
       "visa_complexity": "high",
-      "visa_notes": "Se requiere visa de turista (B-1/B-2) o visa de tránsito (C) para ciudadanos colombianos que transiten o ingresen a EE.UU.",
+      "visa_notes": "Se requiere visa de turista (B-1/B-2) o visa de tránsito (C) para ciudadanos colombianos que transiten o ingresen a EE. UU.",
       "score": 71,
       "availability_status": "verified",
       "available_from": null,
@@ -1271,14 +1271,14 @@
           "from": "LAX",
           "to": "MEX",
           "duration": "4h 34m",
-          "airlines": ["Aeromexico", "American Airlines", "Volaris", "VivaAerobus"],
+          "airlines": ["Aeroméxico", "American Airlines", "Volaris", "VivaAerobus"],
           "source_url": "https://www.flightsfrom.com/LAX-MEX"
         },
         {
           "from": "MEX",
           "to": "BOG",
           "duration": "4h 35m",
-          "airlines": ["Aeromexico", "Avianca"],
+          "airlines": ["Aeroméxico", "Avianca"],
           "source_url": "https://www.flightsfrom.com/MEX-BOG"
         }
       ],
@@ -1290,7 +1290,7 @@
     },
     {
       "id": "SYD-BOG-KUL-IST",
-      "name": "Sídney → Kuala Lumpur → Estambul → Bogotá",
+      "name": "Sydney → Kuala Lumpur → Estambul → Bogotá",
       "origin": "SYD",
       "destination": "BOG",
       "stopovers": ["KUL", "IST"],
@@ -1303,7 +1303,7 @@
       },
       "airlines_example": ["Turkish Airlines", "Malaysia Airlines"],
       "visa_complexity": "medium",
-      "visa_notes": "Kuala Lumpur: colombianos pueden ingresar sin visa hasta 30 días (verificar). Turquía: e-visa disponible. Australia: confirma con Turkish Airlines.",
+      "visa_notes": "Kuala Lumpur: los colombianos pueden ingresar sin visa hasta 30 días (verificar). Turquía: visa electrónica disponible. Australia: confirma con Turkish Airlines.",
       "score": 85,
       "availability_status": "scheduled",
       "available_from": null,
@@ -1333,7 +1333,7 @@
         }
       ],
       "highlights": [
-        "Turkish Airlines planea operar esta ruta vía Kuala Lumpur desde Sídney",
+        "Turkish Airlines planea operar esta ruta vía Kuala Lumpur desde Sydney",
         "Kuala Lumpur y Estambul: dos escalas con alto potencial turístico",
         "Confirma disponibilidad y fechas directamente con Turkish Airlines"
       ]
