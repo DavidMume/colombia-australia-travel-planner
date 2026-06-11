@@ -235,6 +235,722 @@
         "Vuelos frecuentes en todos los tramos",
         "Todos los tramos aparecen en FlightsFrom"
       ]
+    },
+    {
+      "id": "SYD-BOG-DOH",
+      "name": "Sídney → Doha → Bogotá",
+      "origin": "SYD",
+      "destination": "BOG",
+      "stopovers": ["DOH"],
+      "total_stops": 1,
+      "approximate_duration_hours": 34,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [7, 8, 9, 10, 11, 12],
+        "notes": "Doha–Bogotá es una ruta nueva programada desde el 26 de julio de 2026. Confirma horarios con Qatar Airways."
+      },
+      "airlines_example": ["Qatar Airways"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica los requisitos de tránsito o entrada a Catar según la duración de la escala y tu pasaporte.",
+      "score": 91,
+      "availability_status": "scheduled",
+      "available_from": "2026-07-26",
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "SYD",
+          "to": "DOH",
+          "duration": "16h 40m",
+          "airlines": ["Qatar Airways"],
+          "source_url": "https://www.flightsfrom.com/SYD-DOH"
+        },
+        {
+          "from": "DOH",
+          "to": "BOG",
+          "duration": "16h 43m",
+          "airlines": ["Qatar Airways"],
+          "available_from": "2026-07-26",
+          "service_note": "Servicio comercializado como directo; incluye parada intermedia en Caracas sin contarla como conexión.",
+          "source_url": "https://www.flightsfrom.com/DOH-BOG"
+        }
+      ],
+      "highlights": [
+        "Una sola escala",
+        "Qatar Airways conecta directamente Sídney con Doha",
+        "Doha permite convertir la conexión en parada turística"
+      ]
+    },
+    {
+      "id": "SYD-BOG-DFW",
+      "name": "Sídney → Dallas → Bogotá",
+      "origin": "SYD",
+      "destination": "BOG",
+      "stopovers": ["DFW"],
+      "total_stops": 1,
+      "approximate_duration_hours": 24,
+      "tourist_potential": "medium",
+      "season_recommendations": {
+        "best_months": [11, 12, 1, 2, 3],
+        "notes": "Sídney–Dallas tiene buena frecuencia con Qantas. Dallas–Bogotá opera con vuelos directos diarios."
+      },
+      "airlines_example": ["Qantas", "American Airlines", "Avianca"],
+      "visa_complexity": "high",
+      "visa_notes": "Estados Unidos normalmente exige visa válida para tránsito a ciudadanos colombianos. Verifica antes de reservar.",
+      "score": 76,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "SYD",
+          "to": "DFW",
+          "duration": "17h 25m",
+          "airlines": ["Qantas", "American Airlines"],
+          "source_url": "https://www.flightsfrom.com/SYD-DFW"
+        },
+        {
+          "from": "DFW",
+          "to": "BOG",
+          "duration": "5h 54m",
+          "airlines": ["American Airlines", "Avianca"],
+          "source_url": "https://www.flightsfrom.com/DFW-BOG"
+        }
+      ],
+      "highlights": [
+        "Una sola escala",
+        "Qantas opera el tramo directo Sídney–Dallas",
+        "Requiere visa estadounidense"
+      ]
+    },
+    {
+      "id": "SYD-BOG-AKL-SCL",
+      "name": "Sídney → Auckland → Santiago → Bogotá",
+      "origin": "SYD",
+      "destination": "BOG",
+      "stopovers": ["AKL", "SCL"],
+      "total_stops": 2,
+      "approximate_duration_hours": 22,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 10, 11, 12],
+        "notes": "Ruta por el Pacífico Sur. La conexión Auckland–Santiago opera algunos días por semana con LATAM."
+      },
+      "airlines_example": ["Air New Zealand", "Qantas", "LATAM", "Avianca"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de tránsito o entrada para Nueva Zelanda y Chile según tu pasaporte.",
+      "score": 86,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "SYD",
+          "to": "AKL",
+          "duration": "3h 30m",
+          "airlines": ["Air New Zealand", "Qantas", "Jetstar"],
+          "source_url": "https://www.flightsfrom.com/SYD-AKL"
+        },
+        {
+          "from": "AKL",
+          "to": "SCL",
+          "duration": "10h 55m",
+          "airlines": ["LATAM"],
+          "source_url": "https://www.flightsfrom.com/AKL-SCL"
+        },
+        {
+          "from": "SCL",
+          "to": "BOG",
+          "duration": "6h 25m",
+          "airlines": ["Avianca", "LATAM"],
+          "source_url": "https://www.flightsfrom.com/SCL-BOG"
+        }
+      ],
+      "highlights": [
+        "Todos los segmentos directos vigentes en FlightsFrom",
+        "Escalas turísticas en Auckland y Santiago",
+        "Evita tránsito por Estados Unidos"
+      ]
+    },
+    {
+      "id": "SYD-BOG-SIN-IST",
+      "name": "Sídney → Singapur → Estambul → Bogotá",
+      "origin": "SYD",
+      "destination": "BOG",
+      "stopovers": ["SIN", "IST"],
+      "total_stops": 2,
+      "approximate_duration_hours": 36,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [3, 4, 5, 9, 10, 11],
+        "notes": "Singapur es bueno todo el año. Estambul brilla en primavera y otoño."
+      },
+      "airlines_example": ["Singapore Airlines", "Qantas", "Turkish Airlines"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de entrada o tránsito para Singapur y Turquía.",
+      "score": 89,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "SYD",
+          "to": "SIN",
+          "duration": "8h 20m",
+          "airlines": ["Singapore Airlines", "Qantas", "Scoot"],
+          "source_url": "https://www.flightsfrom.com/SYD-SIN"
+        },
+        {
+          "from": "SIN",
+          "to": "IST",
+          "duration": "11h 55m",
+          "airlines": ["Singapore Airlines", "Turkish Airlines"],
+          "source_url": "https://www.flightsfrom.com/SIN-IST"
+        },
+        {
+          "from": "IST",
+          "to": "BOG",
+          "duration": "13h 40m",
+          "airlines": ["Turkish Airlines"],
+          "service_note": "Servicio comercializado como directo; algunos vuelos pueden incluir una parada técnica.",
+          "source_url": "https://www.flightsfrom.com/IST-BOG"
+        }
+      ],
+      "highlights": [
+        "Escalas turísticas en Singapur y Estambul",
+        "Singapore Airlines opera desde Sídney con excelente servicio",
+        "Todos los tramos aparecen en FlightsFrom"
+      ]
+    },
+    {
+      "id": "SYD-BOG-DXB-IST",
+      "name": "Sídney → Dubái → Estambul → Bogotá",
+      "origin": "SYD",
+      "destination": "BOG",
+      "stopovers": ["DXB", "IST"],
+      "total_stops": 2,
+      "approximate_duration_hours": 35,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 10, 11, 12],
+        "notes": "Dubái y Estambul tienen conexiones frecuentes y alto potencial turístico."
+      },
+      "airlines_example": ["Emirates", "Turkish Airlines"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de entrada o tránsito para Emiratos Árabes Unidos y Turquía.",
+      "score": 88,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "SYD",
+          "to": "DXB",
+          "duration": "14h 35m",
+          "airlines": ["Emirates"],
+          "source_url": "https://www.flightsfrom.com/SYD-DXB"
+        },
+        {
+          "from": "DXB",
+          "to": "IST",
+          "duration": "5h 15m",
+          "airlines": ["Emirates", "Turkish Airlines", "flydubai"],
+          "source_url": "https://www.flightsfrom.com/DXB-IST"
+        },
+        {
+          "from": "IST",
+          "to": "BOG",
+          "duration": "13h 40m",
+          "airlines": ["Turkish Airlines"],
+          "service_note": "Servicio comercializado como directo; algunos vuelos pueden incluir una parada técnica.",
+          "source_url": "https://www.flightsfrom.com/IST-BOG"
+        }
+      ],
+      "highlights": [
+        "Emirates conecta Sídney con Dubái directamente",
+        "Escalas turísticas en Dubái y Estambul",
+        "Todos los tramos aparecen en FlightsFrom"
+      ]
+    },
+    {
+      "id": "MEL-BOG-DOH",
+      "name": "Melbourne → Doha → Bogotá",
+      "origin": "MEL",
+      "destination": "BOG",
+      "stopovers": ["DOH"],
+      "total_stops": 1,
+      "approximate_duration_hours": 34,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [7, 8, 9, 10, 11, 12],
+        "notes": "Doha–Bogotá es una ruta nueva programada desde el 26 de julio de 2026. Confirma horarios con Qatar Airways."
+      },
+      "airlines_example": ["Qatar Airways"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica los requisitos de tránsito o entrada a Catar según la duración de la escala y tu pasaporte.",
+      "score": 91,
+      "availability_status": "scheduled",
+      "available_from": "2026-07-26",
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "MEL",
+          "to": "DOH",
+          "duration": "16h 20m",
+          "airlines": ["Qatar Airways"],
+          "source_url": "https://www.flightsfrom.com/MEL-DOH"
+        },
+        {
+          "from": "DOH",
+          "to": "BOG",
+          "duration": "16h 43m",
+          "airlines": ["Qatar Airways"],
+          "available_from": "2026-07-26",
+          "service_note": "Servicio comercializado como directo; incluye parada intermedia en Caracas sin contarla como conexión.",
+          "source_url": "https://www.flightsfrom.com/DOH-BOG"
+        }
+      ],
+      "highlights": [
+        "Una sola escala",
+        "Qatar Airways conecta directamente Melbourne con Doha",
+        "Doha permite una parada turística opcional"
+      ]
+    },
+    {
+      "id": "MEL-BOG-AKL-SCL",
+      "name": "Melbourne → Auckland → Santiago → Bogotá",
+      "origin": "MEL",
+      "destination": "BOG",
+      "stopovers": ["AKL", "SCL"],
+      "total_stops": 2,
+      "approximate_duration_hours": 23,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 10, 11, 12],
+        "notes": "Ruta por el Pacífico Sur. La conexión Auckland–Santiago opera algunos días por semana."
+      },
+      "airlines_example": ["Jetstar", "Air New Zealand", "LATAM", "Avianca"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de tránsito o entrada para Nueva Zelanda y Chile según tu pasaporte.",
+      "score": 85,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "MEL",
+          "to": "AKL",
+          "duration": "3h 35m",
+          "airlines": ["Jetstar", "Air New Zealand", "Qantas"],
+          "source_url": "https://www.flightsfrom.com/MEL-AKL"
+        },
+        {
+          "from": "AKL",
+          "to": "SCL",
+          "duration": "10h 55m",
+          "airlines": ["LATAM"],
+          "source_url": "https://www.flightsfrom.com/AKL-SCL"
+        },
+        {
+          "from": "SCL",
+          "to": "BOG",
+          "duration": "6h 25m",
+          "airlines": ["Avianca", "LATAM"],
+          "source_url": "https://www.flightsfrom.com/SCL-BOG"
+        }
+      ],
+      "highlights": [
+        "Todos los segmentos directos vigentes en FlightsFrom",
+        "Escalas turísticas en Auckland y Santiago",
+        "Evita tránsito por Estados Unidos"
+      ]
+    },
+    {
+      "id": "MEL-BOG-SIN-IST",
+      "name": "Melbourne → Singapur → Estambul → Bogotá",
+      "origin": "MEL",
+      "destination": "BOG",
+      "stopovers": ["SIN", "IST"],
+      "total_stops": 2,
+      "approximate_duration_hours": 36,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [3, 4, 5, 9, 10, 11],
+        "notes": "Singapur es bueno todo el año. Estambul brilla en primavera y otoño."
+      },
+      "airlines_example": ["Singapore Airlines", "Turkish Airlines"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de entrada o tránsito para Singapur y Turquía.",
+      "score": 88,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "MEL",
+          "to": "SIN",
+          "duration": "8h 05m",
+          "airlines": ["Singapore Airlines", "Jetstar", "Scoot"],
+          "source_url": "https://www.flightsfrom.com/MEL-SIN"
+        },
+        {
+          "from": "SIN",
+          "to": "IST",
+          "duration": "11h 55m",
+          "airlines": ["Singapore Airlines", "Turkish Airlines"],
+          "source_url": "https://www.flightsfrom.com/SIN-IST"
+        },
+        {
+          "from": "IST",
+          "to": "BOG",
+          "duration": "13h 40m",
+          "airlines": ["Turkish Airlines"],
+          "service_note": "Servicio comercializado como directo; algunos vuelos pueden incluir una parada técnica.",
+          "source_url": "https://www.flightsfrom.com/IST-BOG"
+        }
+      ],
+      "highlights": [
+        "Singapore Airlines opera desde Melbourne con excelente servicio",
+        "Escalas turísticas en Singapur y Estambul",
+        "Todos los tramos aparecen en FlightsFrom"
+      ]
+    },
+    {
+      "id": "MEL-BOG-DXB-IST",
+      "name": "Melbourne → Dubái → Estambul → Bogotá",
+      "origin": "MEL",
+      "destination": "BOG",
+      "stopovers": ["DXB", "IST"],
+      "total_stops": 2,
+      "approximate_duration_hours": 34,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 10, 11, 12],
+        "notes": "Dubái y Estambul tienen conexiones frecuentes y alto potencial turístico."
+      },
+      "airlines_example": ["Emirates", "Turkish Airlines"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de entrada o tránsito para Emiratos Árabes Unidos y Turquía.",
+      "score": 87,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "MEL",
+          "to": "DXB",
+          "duration": "13h 55m",
+          "airlines": ["Emirates"],
+          "source_url": "https://www.flightsfrom.com/MEL-DXB"
+        },
+        {
+          "from": "DXB",
+          "to": "IST",
+          "duration": "5h 15m",
+          "airlines": ["Emirates", "Turkish Airlines", "flydubai"],
+          "source_url": "https://www.flightsfrom.com/DXB-IST"
+        },
+        {
+          "from": "IST",
+          "to": "BOG",
+          "duration": "13h 40m",
+          "airlines": ["Turkish Airlines"],
+          "service_note": "Servicio comercializado como directo; algunos vuelos pueden incluir una parada técnica.",
+          "source_url": "https://www.flightsfrom.com/IST-BOG"
+        }
+      ],
+      "highlights": [
+        "Emirates conecta Melbourne con Dubái directamente",
+        "Escalas turísticas en Dubái y Estambul",
+        "Todos los tramos aparecen en FlightsFrom"
+      ]
+    },
+    {
+      "id": "PER-BOG-DOH",
+      "name": "Perth → Doha → Bogotá",
+      "origin": "PER",
+      "destination": "BOG",
+      "stopovers": ["DOH"],
+      "total_stops": 1,
+      "approximate_duration_hours": 31,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [7, 8, 9, 10, 11, 12],
+        "notes": "Doha–Bogotá es una ruta nueva programada desde el 26 de julio de 2026. Confirma horarios con Qatar Airways."
+      },
+      "airlines_example": ["Qatar Airways"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica los requisitos de tránsito o entrada a Catar según la duración de la escala y tu pasaporte.",
+      "score": 93,
+      "availability_status": "scheduled",
+      "available_from": "2026-07-26",
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "PER",
+          "to": "DOH",
+          "duration": "13h 15m",
+          "airlines": ["Qatar Airways"],
+          "source_url": "https://www.flightsfrom.com/PER-DOH"
+        },
+        {
+          "from": "DOH",
+          "to": "BOG",
+          "duration": "16h 43m",
+          "airlines": ["Qatar Airways"],
+          "available_from": "2026-07-26",
+          "service_note": "Servicio comercializado como directo; incluye parada intermedia en Caracas sin contarla como conexión.",
+          "source_url": "https://www.flightsfrom.com/DOH-BOG"
+        }
+      ],
+      "highlights": [
+        "Una sola escala — la opción más directa desde Perth",
+        "Perth está muy bien conectada con el Medio Oriente",
+        "Doha permite una parada turística opcional"
+      ]
+    },
+    {
+      "id": "PER-BOG-DXB-IST",
+      "name": "Perth → Dubái → Estambul → Bogotá",
+      "origin": "PER",
+      "destination": "BOG",
+      "stopovers": ["DXB", "IST"],
+      "total_stops": 2,
+      "approximate_duration_hours": 31,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 10, 11, 12],
+        "notes": "Dubái y Estambul tienen conexiones frecuentes y alto potencial turístico."
+      },
+      "airlines_example": ["Emirates", "Turkish Airlines"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de entrada o tránsito para Emiratos Árabes Unidos y Turquía.",
+      "score": 88,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "PER",
+          "to": "DXB",
+          "duration": "11h 10m",
+          "airlines": ["Emirates"],
+          "source_url": "https://www.flightsfrom.com/PER-DXB"
+        },
+        {
+          "from": "DXB",
+          "to": "IST",
+          "duration": "5h 15m",
+          "airlines": ["Emirates", "Turkish Airlines", "flydubai"],
+          "source_url": "https://www.flightsfrom.com/DXB-IST"
+        },
+        {
+          "from": "IST",
+          "to": "BOG",
+          "duration": "13h 40m",
+          "airlines": ["Turkish Airlines"],
+          "service_note": "Servicio comercializado como directo; algunos vuelos pueden incluir una parada técnica.",
+          "source_url": "https://www.flightsfrom.com/IST-BOG"
+        }
+      ],
+      "highlights": [
+        "Emirates conecta Perth con Dubái frecuentemente",
+        "Escalas turísticas en Dubái y Estambul",
+        "Todos los tramos aparecen en FlightsFrom"
+      ]
+    },
+    {
+      "id": "PER-BOG-SIN-IST",
+      "name": "Perth → Singapur → Estambul → Bogotá",
+      "origin": "PER",
+      "destination": "BOG",
+      "stopovers": ["SIN", "IST"],
+      "total_stops": 2,
+      "approximate_duration_hours": 31,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [3, 4, 5, 9, 10, 11],
+        "notes": "Singapur es bueno todo el año. Estambul brilla en primavera y otoño."
+      },
+      "airlines_example": ["Singapore Airlines", "Scoot", "Turkish Airlines"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de entrada o tránsito para Singapur y Turquía.",
+      "score": 89,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "PER",
+          "to": "SIN",
+          "duration": "5h 05m",
+          "airlines": ["Singapore Airlines", "Scoot", "Jetstar Asia"],
+          "source_url": "https://www.flightsfrom.com/PER-SIN"
+        },
+        {
+          "from": "SIN",
+          "to": "IST",
+          "duration": "11h 55m",
+          "airlines": ["Singapore Airlines", "Turkish Airlines"],
+          "source_url": "https://www.flightsfrom.com/SIN-IST"
+        },
+        {
+          "from": "IST",
+          "to": "BOG",
+          "duration": "13h 40m",
+          "airlines": ["Turkish Airlines"],
+          "service_note": "Servicio comercializado como directo; algunos vuelos pueden incluir una parada técnica.",
+          "source_url": "https://www.flightsfrom.com/IST-BOG"
+        }
+      ],
+      "highlights": [
+        "Perth está muy cerca de Singapur (solo ~5 horas de vuelo)",
+        "Singapore Airlines opera frecuentemente esta ruta",
+        "Todos los tramos aparecen en FlightsFrom"
+      ]
+    },
+    {
+      "id": "ADL-BOG-DOH",
+      "name": "Adelaide → Doha → Bogotá",
+      "origin": "ADL",
+      "destination": "BOG",
+      "stopovers": ["DOH"],
+      "total_stops": 1,
+      "approximate_duration_hours": 34,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [7, 8, 9, 10, 11, 12],
+        "notes": "Doha–Bogotá es una ruta nueva programada desde el 26 de julio de 2026. Confirma horarios con Qatar Airways."
+      },
+      "airlines_example": ["Qatar Airways"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica los requisitos de tránsito o entrada a Catar según la duración de la escala y tu pasaporte.",
+      "score": 91,
+      "availability_status": "scheduled",
+      "available_from": "2026-07-26",
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "ADL",
+          "to": "DOH",
+          "duration": "16h 00m",
+          "airlines": ["Qatar Airways"],
+          "source_url": "https://www.flightsfrom.com/ADL-DOH"
+        },
+        {
+          "from": "DOH",
+          "to": "BOG",
+          "duration": "16h 43m",
+          "airlines": ["Qatar Airways"],
+          "available_from": "2026-07-26",
+          "service_note": "Servicio comercializado como directo; incluye parada intermedia en Caracas sin contarla como conexión.",
+          "source_url": "https://www.flightsfrom.com/DOH-BOG"
+        }
+      ],
+      "highlights": [
+        "Una sola escala — la opción más directa desde Adelaide",
+        "Qatar Airways conecta directamente Adelaide con Doha",
+        "Doha permite una parada turística opcional"
+      ]
+    },
+    {
+      "id": "ADL-BOG-DXB-IST",
+      "name": "Adelaide → Dubái → Estambul → Bogotá",
+      "origin": "ADL",
+      "destination": "BOG",
+      "stopovers": ["DXB", "IST"],
+      "total_stops": 2,
+      "approximate_duration_hours": 34,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 10, 11, 12],
+        "notes": "Dubái y Estambul tienen conexiones frecuentes y alto potencial turístico."
+      },
+      "airlines_example": ["Emirates", "Turkish Airlines"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de entrada o tránsito para Emiratos Árabes Unidos y Turquía.",
+      "score": 87,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "ADL",
+          "to": "DXB",
+          "duration": "13h 30m",
+          "airlines": ["Emirates"],
+          "source_url": "https://www.flightsfrom.com/ADL-DXB"
+        },
+        {
+          "from": "DXB",
+          "to": "IST",
+          "duration": "5h 15m",
+          "airlines": ["Emirates", "Turkish Airlines", "flydubai"],
+          "source_url": "https://www.flightsfrom.com/DXB-IST"
+        },
+        {
+          "from": "IST",
+          "to": "BOG",
+          "duration": "13h 40m",
+          "airlines": ["Turkish Airlines"],
+          "service_note": "Servicio comercializado como directo; algunos vuelos pueden incluir una parada técnica.",
+          "source_url": "https://www.flightsfrom.com/IST-BOG"
+        }
+      ],
+      "highlights": [
+        "Emirates conecta Adelaide con Dubái directamente",
+        "Escalas turísticas en Dubái y Estambul",
+        "Todos los tramos aparecen en FlightsFrom"
+      ]
+    },
+    {
+      "id": "ADL-BOG-SIN-IST",
+      "name": "Adelaide → Singapur → Estambul → Bogotá",
+      "origin": "ADL",
+      "destination": "BOG",
+      "stopovers": ["SIN", "IST"],
+      "total_stops": 2,
+      "approximate_duration_hours": 32,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [3, 4, 5, 9, 10, 11],
+        "notes": "Singapur es bueno todo el año. Estambul brilla en primavera y otoño."
+      },
+      "airlines_example": ["Scoot", "Singapore Airlines", "Turkish Airlines"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de entrada o tránsito para Singapur y Turquía.",
+      "score": 87,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "ADL",
+          "to": "SIN",
+          "duration": "7h 45m",
+          "airlines": ["Scoot", "Singapore Airlines"],
+          "source_url": "https://www.flightsfrom.com/ADL-SIN"
+        },
+        {
+          "from": "SIN",
+          "to": "IST",
+          "duration": "11h 55m",
+          "airlines": ["Singapore Airlines", "Turkish Airlines"],
+          "source_url": "https://www.flightsfrom.com/SIN-IST"
+        },
+        {
+          "from": "IST",
+          "to": "BOG",
+          "duration": "13h 40m",
+          "airlines": ["Turkish Airlines"],
+          "service_note": "Servicio comercializado como directo; algunos vuelos pueden incluir una parada técnica.",
+          "source_url": "https://www.flightsfrom.com/IST-BOG"
+        }
+      ],
+      "highlights": [
+        "Scoot opera vuelos directos desde Adelaide a Singapur",
+        "Escalas turísticas en Singapur y Estambul",
+        "Todos los tramos aparecen en FlightsFrom"
+      ]
     }
   ],
   "metadata": {

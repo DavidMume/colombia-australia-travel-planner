@@ -1,5 +1,5 @@
 iata_code,name,city,country,latitude,longitude,is_tourist_stopover,visa_notes,hub_airlines
-BOG,El Dorado International Airport,Bogotá,Colombia,-4.7016,-74.1469,false,"Ciudadanos colombianos no requieren visa para salir desde aquí. Verificar siempre con el consulado del país de destino.","Avianca,LATAM,Copa Airlines"
+BOG,El Dorado International Airport,Bogotá,Colombia,4.7016,-74.1469,false,"Ciudadanos colombianos no requieren visa para salir desde aquí. Verificar siempre con el consulado del país de destino.","Avianca,LATAM,Copa Airlines"
 MDE,José María Córdova International Airport,Medellín,Colombia,6.1645,-75.4232,false,"Ciudadanos colombianos no requieren visa para salir desde aquí. Verificar siempre con el consulado del país de destino.","Avianca,LATAM,American Airlines"
 CLO,Alfonso Bonilla Aragón International Airport,Cali,Colombia,3.5432,-76.3816,false,"Ciudadanos colombianos no requieren visa para salir desde aquí. Verificar siempre con el consulado del país de destino.","Avianca,LATAM"
 BNE,Brisbane Airport,Brisbane,Australia,-27.3842,153.1175,true,"Se requiere visa australiana (ETA o e-Visitor) para ingresar. Solicitar con anticipación en el portal oficial de inmigración australiana.","Qantas,Virgin Australia,Jetstar"
