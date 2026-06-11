@@ -194,11 +194,26 @@ select {
   margin-bottom: 58px;
 }
 
+.hub-context {
+  max-width: 780px;
+  margin-bottom: 16px;
+  padding: 14px 16px;
+  border: 1px solid #d6e4d6;
+  border-radius: 10px;
+  background: #f2f8f2;
+  color: #3d5c3d;
+  font-size: .84rem;
+  line-height: 1.65;
+}
+
+.hub-context strong { color: var(--ink); }
+
 .hub-intro {
   max-width: 780px;
   margin-bottom: 20px;
   color: var(--muted);
   line-height: 1.6;
+  font-size: .88rem;
 }
 
 .hub-controls {
