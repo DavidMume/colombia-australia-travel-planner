@@ -186,6 +186,55 @@
       ]
     },
     {
+      "id": "BNE-BOG-NRT-MEX",
+      "name": "Brisbane → Tokio → Ciudad de México → Bogotá",
+      "origin": "BNE",
+      "destination": "BOG",
+      "stopovers": ["NRT", "MEX"],
+      "total_stops": 2,
+      "approximate_duration_hours": 29,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [3, 4, 5, 9, 10, 11],
+        "notes": "Ruta transpacífica con vuelos directos vigentes. Suele ser una alternativa costosa por incluir dos tramos intercontinentales largos; compara precios antes de reservar."
+      },
+      "airlines_example": ["Qantas", "Jetstar", "Aeromexico", "ANA", "Avianca"],
+      "visa_complexity": "medium",
+      "visa_notes": "Verifica requisitos de entrada o tránsito para Japón y México según tu pasaporte y la duración de las escalas.",
+      "score": 79,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "BNE",
+          "to": "NRT",
+          "duration": "9h 15m",
+          "airlines": ["Qantas", "Jetstar"],
+          "source_url": "https://www.flightsfrom.com/BNE-NRT"
+        },
+        {
+          "from": "NRT",
+          "to": "MEX",
+          "duration": "13h 20m",
+          "airlines": ["Aeromexico", "ANA"],
+          "source_url": "https://www.flightsfrom.com/NRT-MEX"
+        },
+        {
+          "from": "MEX",
+          "to": "BOG",
+          "duration": "5h 05m",
+          "airlines": ["Aeromexico", "Avianca"],
+          "source_url": "https://www.flightsfrom.com/MEX-BOG"
+        }
+      ],
+      "highlights": [
+        "Tokio y Ciudad de México como escalas turísticas",
+        "Evita tránsito por Estados Unidos",
+        "Alternativa normalmente costosa; todos los tramos están vigentes"
+      ]
+    },
+    {
       "id": "BNE-BOG-AKL-SCL",
       "name": "Brisbane → Auckland → Santiago → Bogotá",
       "origin": "BNE",
