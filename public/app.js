@@ -3,6 +3,7 @@ const MONTHS = [
   "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
 ];
 const PLANNING_YEAR = 2026;
+const DATA_VERSION = "2026-06-11-spelling-review";
 
 const state = { airports: {}, routes: [], bridgeDestinations: [], filtered: [], selectedId: null };
 const map = L.map("map", { scrollWheelZoom: false }).setView([5, 20], 2);
@@ -268,9 +269,9 @@ function greatCirclePoints(start, end, steps) {
 
 async function init() {
   const [routesResponse, airportsResponse, hubsResponse] = await Promise.all([
-    fetch("/data/verified_routes.json"),
-    fetch("/data/airports.csv"),
-    fetch("/data/hub_bridges.json"),
+    fetch(`/data/verified_routes.json?v=${DATA_VERSION}`),
+    fetch(`/data/airports.csv?v=${DATA_VERSION}`),
+    fetch(`/data/hub_bridges.json?v=${DATA_VERSION}`),
   ]);
   const routeData = await routesResponse.json();
   const hubData = await hubsResponse.json();
