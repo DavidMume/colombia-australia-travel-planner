@@ -4,7 +4,7 @@ const MONTHS = [
 ];
 const PLANNING_YEAR = 2026;
 
-const state = { airports: {}, routes: [], filtered: [], selectedId: null };
+const state = { airports: {}, routes: [], hubs: [], filtered: [], selectedId: null };
 const map = L.map("map", { scrollWheelZoom: false }).setView([5, 20], 2);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "&copy; OpenStreetMap contributors",
@@ -71,6 +71,23 @@ function uniqueCodes(key) {
 function fillSelect(id, codes, preferred) {
   const select = document.getElementById(id);
   select.innerHTML = codes.map(code => `<option value="${code}" ${code === preferred ? "selected" : ""}>${airportLabel(code)}</option>`).join("");
+}
+
+function renderHubBridges() {
+  const selectedCode = document.getElementById("hub-select").value;
+  const hub = state.hubs.find(item => item.code === selectedCode);
+  if (!hub) return;
+  document.querySelector(".hub-intro").textContent = hub.summary;
+  document.getElementById("hub-bridges").innerHTML = hub.bridges.map(bridge => `
+    <article class="bridge-card">
+      <h3>${hub.code} → ${bridge.code} → BNE</h3>
+      <p><strong>${bridge.name}:</strong> ${bridge.note}</p>
+      <div class="bridge-links">
+        <a href="${bridge.hub_url}" target="_blank" rel="noreferrer">Ver ${hub.code} → ${bridge.code}</a>
+        <a href="${bridge.destination_url}" target="_blank" rel="noreferrer">Ver ${bridge.code} → BNE</a>
+      </div>
+    </article>
+  `).join("");
 }
 
 function applyFilters() {
@@ -229,11 +246,13 @@ function greatCirclePoints(start, end, steps) {
 }
 
 async function init() {
-  const [routesResponse, airportsResponse] = await Promise.all([
+  const [routesResponse, airportsResponse, hubsResponse] = await Promise.all([
     fetch("/data/verified_routes.json"),
     fetch("/data/airports.csv"),
+    fetch("/data/hub_bridges.json"),
   ]);
   const routeData = await routesResponse.json();
+  const hubData = await hubsResponse.json();
   const airportRows = parseCsv(await airportsResponse.text());
 
   state.airports = Object.fromEntries(airportRows.map(airport => [airport.iata_code, {
@@ -243,14 +262,20 @@ async function init() {
     isTourist: airport.is_tourist_stopover.toLowerCase() === "true",
   }]));
   state.routes = routeData.routes;
+  state.hubs = hubData.hubs;
 
   fillSelect("origin", uniqueCodes("origin"), "BNE");
   fillSelect("destination", uniqueCodes("destination"), "BOG");
+  document.getElementById("hub-select").innerHTML = state.hubs.map(hub =>
+    `<option value="${hub.code}">${hub.name} (${hub.code})</option>`
+  ).join("");
   document.getElementById("month").innerHTML = MONTHS.map((month, index) =>
     `<option value="${index + 1}" ${index === new Date().getMonth() ? "selected" : ""}>${month}</option>`
   ).join("");
   document.getElementById("search-routes").addEventListener("click", applyFilters);
   document.getElementById("sort").addEventListener("change", applyFilters);
+  document.getElementById("hub-select").addEventListener("change", renderHubBridges);
+  renderHubBridges();
   applyFilters();
 }
 

@@ -1,0 +1,40 @@
+{
+  "destination": "BNE",
+  "hubs": [
+    {
+      "code": "IST",
+      "name": "Estambul",
+      "summary": "Aunque Estambul no vuela directo a Brisbane, abre varias puertas directas hacia Asia que sí conectan con BNE.",
+      "bridges": [
+        {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/IST-SIN", "destination_url": "https://www.flightsfrom.com/SIN-BNE", "note": "Gran frecuencia y excelente stopover urbano."},
+        {"code": "ICN", "name": "Seúl", "hub_url": "https://www.flightsfrom.com/IST-ICN", "destination_url": "https://www.flightsfrom.com/ICN-BNE", "note": "Conexión directa a Brisbane con Korean Air y Jetstar."},
+        {"code": "NRT", "name": "Tokio", "hub_url": "https://www.flightsfrom.com/IST-NRT", "destination_url": "https://www.flightsfrom.com/NRT-BNE", "note": "Opción cultural fuerte con conexión directa a Brisbane."},
+        {"code": "MNL", "name": "Manila", "hub_url": "https://www.flightsfrom.com/IST-MNL", "destination_url": "https://www.flightsfrom.com/MNL-BNE", "note": "Manila–Brisbane opera con Philippine Airlines y Qantas."},
+        {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/IST-DPS", "destination_url": "https://www.flightsfrom.com/DPS-BNE", "note": "Permite convertir la conexión en una parada de playa."},
+        {"code": "BKK", "name": "Bangkok", "hub_url": "https://www.flightsfrom.com/IST-BKK", "destination_url": "https://www.flightsfrom.com/BKK-BNE", "note": "Bangkok–Brisbane tiene servicio directo de Jetstar."}
+      ]
+    },
+    {
+      "code": "DOH",
+      "name": "Doha",
+      "summary": "Doha sí conecta directamente con Brisbane, pero también permite combinar el viaje con escalas turísticas asiáticas.",
+      "bridges": [
+        {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/DOH-SIN", "destination_url": "https://www.flightsfrom.com/SIN-BNE", "note": "Alternativa flexible con muchas frecuencias hacia Brisbane."},
+        {"code": "ICN", "name": "Seúl", "hub_url": "https://www.flightsfrom.com/DOH-ICN", "destination_url": "https://www.flightsfrom.com/ICN-BNE", "note": "Añade una escala turística antes del tramo final."},
+        {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/DOH-DPS", "destination_url": "https://www.flightsfrom.com/DPS-BNE", "note": "Buena opción para una parada vacacional."}
+      ]
+    },
+    {
+      "code": "DXB",
+      "name": "Dubái",
+      "summary": "Dubái funciona como hub directo a Brisbane y también como punto de salto hacia hubs asiáticos con vuelos a BNE.",
+      "bridges": [
+        {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/DXB-SIN", "destination_url": "https://www.flightsfrom.com/SIN-BNE", "note": "Combina dos hubs con muchas opciones de horarios."},
+        {"code": "MNL", "name": "Manila", "hub_url": "https://www.flightsfrom.com/DXB-MNL", "destination_url": "https://www.flightsfrom.com/MNL-BNE", "note": "Permite continuar a Brisbane con Philippine Airlines o Qantas."},
+        {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/DXB-DPS", "destination_url": "https://www.flightsfrom.com/DPS-BNE", "note": "Opción turística antes de llegar a Brisbane."}
+      ]
+    }
+  ],
+  "last_verified": "2026-06-11",
+  "disclaimer": "Cada tramo aparece como vuelo directo en FlightsFrom. Esto no garantiza conexión protegida ni compra en un solo tiquete."
+}
