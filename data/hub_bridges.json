@@ -1,40 +1,176 @@
 {
-  "destination": "BNE",
-  "hubs": [
+  "destinations": [
     {
-      "code": "IST",
-      "name": "Estambul",
-      "summary": "Aunque Estambul no vuela directo a Brisbane, abre varias puertas directas hacia Asia que sí conectan con BNE.",
-      "bridges": [
-        {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/IST-SIN", "destination_url": "https://www.flightsfrom.com/SIN-BNE", "note": "Gran frecuencia y excelente stopover urbano."},
-        {"code": "ICN", "name": "Seúl", "hub_url": "https://www.flightsfrom.com/IST-ICN", "destination_url": "https://www.flightsfrom.com/ICN-BNE", "note": "Conexión directa a Brisbane con Korean Air y Jetstar."},
-        {"code": "NRT", "name": "Tokio", "hub_url": "https://www.flightsfrom.com/IST-NRT", "destination_url": "https://www.flightsfrom.com/NRT-BNE", "note": "Opción cultural fuerte con conexión directa a Brisbane."},
-        {"code": "MNL", "name": "Manila", "hub_url": "https://www.flightsfrom.com/IST-MNL", "destination_url": "https://www.flightsfrom.com/MNL-BNE", "note": "Manila–Brisbane opera con Philippine Airlines y Qantas."},
-        {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/IST-DPS", "destination_url": "https://www.flightsfrom.com/DPS-BNE", "note": "Permite convertir la conexión en una parada de playa."},
-        {"code": "BKK", "name": "Bangkok", "hub_url": "https://www.flightsfrom.com/IST-BKK", "destination_url": "https://www.flightsfrom.com/BKK-BNE", "note": "Bangkok–Brisbane tiene servicio directo de Jetstar."}
+      "code": "BNE",
+      "name": "Brisbane",
+      "hubs": [
+        {
+          "code": "IST", "name": "Estambul",
+          "summary": "Estambul abre varias puertas directas hacia Asia que también conectan directamente con Brisbane.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/IST-SIN", "destination_url": "https://www.flightsfrom.com/SIN-BNE", "note": "Gran frecuencia y excelente stopover urbano."},
+            {"code": "ICN", "name": "Seúl", "hub_url": "https://www.flightsfrom.com/IST-ICN", "destination_url": "https://www.flightsfrom.com/ICN-BNE", "note": "Conexión directa a Brisbane con Korean Air y Jetstar."},
+            {"code": "NRT", "name": "Tokio", "hub_url": "https://www.flightsfrom.com/IST-NRT", "destination_url": "https://www.flightsfrom.com/NRT-BNE", "note": "Opción cultural fuerte con vuelo directo a Brisbane."},
+            {"code": "MNL", "name": "Manila", "hub_url": "https://www.flightsfrom.com/IST-MNL", "destination_url": "https://www.flightsfrom.com/MNL-BNE", "note": "Manila–Brisbane opera con Philippine Airlines y Qantas."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/IST-DPS", "destination_url": "https://www.flightsfrom.com/DPS-BNE", "note": "Permite convertir la conexión en una parada de playa."},
+            {"code": "BKK", "name": "Bangkok", "hub_url": "https://www.flightsfrom.com/IST-BKK", "destination_url": "https://www.flightsfrom.com/BKK-BNE", "note": "Bangkok–Brisbane tiene servicio directo."}
+          ]
+        },
+        {
+          "code": "DOH", "name": "Doha",
+          "summary": "Doha conecta directamente con Brisbane, pero también permite combinar el viaje con escalas turísticas asiáticas.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/DOH-SIN", "destination_url": "https://www.flightsfrom.com/SIN-BNE", "note": "Alternativa flexible con muchas frecuencias."},
+            {"code": "ICN", "name": "Seúl", "hub_url": "https://www.flightsfrom.com/DOH-ICN", "destination_url": "https://www.flightsfrom.com/ICN-BNE", "note": "Añade una escala turística antes del tramo final."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/DOH-DPS", "destination_url": "https://www.flightsfrom.com/DPS-BNE", "note": "Buena opción para una parada vacacional."}
+          ]
+        },
+        {
+          "code": "DXB", "name": "Dubái",
+          "summary": "Dubái funciona como hub directo a Brisbane y como punto de salto hacia hubs asiáticos.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/DXB-SIN", "destination_url": "https://www.flightsfrom.com/SIN-BNE", "note": "Combina dos hubs con muchas opciones de horarios."},
+            {"code": "MNL", "name": "Manila", "hub_url": "https://www.flightsfrom.com/DXB-MNL", "destination_url": "https://www.flightsfrom.com/MNL-BNE", "note": "Permite continuar con Philippine Airlines o Qantas."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/DXB-DPS", "destination_url": "https://www.flightsfrom.com/DPS-BNE", "note": "Opción turística antes de llegar a Brisbane."}
+          ]
+        }
       ]
     },
     {
-      "code": "DOH",
-      "name": "Doha",
-      "summary": "Doha sí conecta directamente con Brisbane, pero también permite combinar el viaje con escalas turísticas asiáticas.",
-      "bridges": [
-        {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/DOH-SIN", "destination_url": "https://www.flightsfrom.com/SIN-BNE", "note": "Alternativa flexible con muchas frecuencias hacia Brisbane."},
-        {"code": "ICN", "name": "Seúl", "hub_url": "https://www.flightsfrom.com/DOH-ICN", "destination_url": "https://www.flightsfrom.com/ICN-BNE", "note": "Añade una escala turística antes del tramo final."},
-        {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/DOH-DPS", "destination_url": "https://www.flightsfrom.com/DPS-BNE", "note": "Buena opción para una parada vacacional."}
+      "code": "SYD",
+      "name": "Sídney",
+      "hubs": [
+        {
+          "code": "IST", "name": "Estambul",
+          "summary": "Desde Estambul puedes usar grandes hubs asiáticos como puente hacia Sídney.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/IST-SIN", "destination_url": "https://www.flightsfrom.com/SIN-SYD", "note": "Una de las conexiones más frecuentes hacia Sídney."},
+            {"code": "ICN", "name": "Seúl", "hub_url": "https://www.flightsfrom.com/IST-ICN", "destination_url": "https://www.flightsfrom.com/ICN-SYD", "note": "Buen stopover cultural con múltiples aerolíneas."},
+            {"code": "NRT", "name": "Tokio", "hub_url": "https://www.flightsfrom.com/IST-NRT", "destination_url": "https://www.flightsfrom.com/NRT-SYD", "note": "Tokio ofrece vuelos directos frecuentes a Sídney."},
+            {"code": "MNL", "name": "Manila", "hub_url": "https://www.flightsfrom.com/IST-MNL", "destination_url": "https://www.flightsfrom.com/MNL-SYD", "note": "Alternativa directa desde Filipinas."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/IST-DPS", "destination_url": "https://www.flightsfrom.com/DPS-SYD", "note": "Parada de playa con varias opciones hacia Sídney."},
+            {"code": "BKK", "name": "Bangkok", "hub_url": "https://www.flightsfrom.com/IST-BKK", "destination_url": "https://www.flightsfrom.com/BKK-SYD", "note": "Bangkok conecta directamente con Sídney."}
+          ]
+        },
+        {
+          "code": "DOH", "name": "Doha",
+          "summary": "Doha tiene vuelo directo a Sídney y permite añadir una parada asiática.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/DOH-SIN", "destination_url": "https://www.flightsfrom.com/SIN-SYD", "note": "Muchas frecuencias y aerolíneas."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/DOH-DPS", "destination_url": "https://www.flightsfrom.com/DPS-SYD", "note": "Escala vacacional antes de Sídney."}
+          ]
+        },
+        {
+          "code": "DXB", "name": "Dubái",
+          "summary": "Dubái conecta directo con Sídney y también vía ciudades turísticas asiáticas.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/DXB-SIN", "destination_url": "https://www.flightsfrom.com/SIN-SYD", "note": "Dos hubs con alta frecuencia."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/DXB-DPS", "destination_url": "https://www.flightsfrom.com/DPS-SYD", "note": "Buena opción para turismo."},
+            {"code": "MNL", "name": "Manila", "hub_url": "https://www.flightsfrom.com/DXB-MNL", "destination_url": "https://www.flightsfrom.com/MNL-SYD", "note": "Conexión directa hacia Sídney."}
+          ]
+        }
       ]
     },
     {
-      "code": "DXB",
-      "name": "Dubái",
-      "summary": "Dubái funciona como hub directo a Brisbane y también como punto de salto hacia hubs asiáticos con vuelos a BNE.",
-      "bridges": [
-        {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/DXB-SIN", "destination_url": "https://www.flightsfrom.com/SIN-BNE", "note": "Combina dos hubs con muchas opciones de horarios."},
-        {"code": "MNL", "name": "Manila", "hub_url": "https://www.flightsfrom.com/DXB-MNL", "destination_url": "https://www.flightsfrom.com/MNL-BNE", "note": "Permite continuar a Brisbane con Philippine Airlines o Qantas."},
-        {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/DXB-DPS", "destination_url": "https://www.flightsfrom.com/DPS-BNE", "note": "Opción turística antes de llegar a Brisbane."}
+      "code": "MEL",
+      "name": "Melbourne",
+      "hubs": [
+        {
+          "code": "IST", "name": "Estambul",
+          "summary": "Estambul permite llegar a Melbourne usando varios puentes turísticos en Asia.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/IST-SIN", "destination_url": "https://www.flightsfrom.com/SIN-MEL", "note": "Alta frecuencia hacia Melbourne."},
+            {"code": "ICN", "name": "Seúl", "hub_url": "https://www.flightsfrom.com/IST-ICN", "destination_url": "https://www.flightsfrom.com/ICN-MEL", "note": "Stopover cultural con vuelo directo final."},
+            {"code": "NRT", "name": "Tokio", "hub_url": "https://www.flightsfrom.com/IST-NRT", "destination_url": "https://www.flightsfrom.com/NRT-MEL", "note": "Conexión directa Japón–Melbourne."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/IST-DPS", "destination_url": "https://www.flightsfrom.com/DPS-MEL", "note": "Muchas opciones directas hacia Melbourne."},
+            {"code": "BKK", "name": "Bangkok", "hub_url": "https://www.flightsfrom.com/IST-BKK", "destination_url": "https://www.flightsfrom.com/BKK-MEL", "note": "Bangkok conecta directamente con Melbourne."}
+          ]
+        },
+        {
+          "code": "DOH", "name": "Doha",
+          "summary": "Doha vuela directamente a Melbourne y ofrece alternativas turísticas por Asia.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/DOH-SIN", "destination_url": "https://www.flightsfrom.com/SIN-MEL", "note": "Ruta flexible con muchas frecuencias."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/DOH-DPS", "destination_url": "https://www.flightsfrom.com/DPS-MEL", "note": "Escala de playa antes de Melbourne."}
+          ]
+        },
+        {
+          "code": "DXB", "name": "Dubái",
+          "summary": "Dubái conecta directamente con Melbourne y por ciudades asiáticas.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/DXB-SIN", "destination_url": "https://www.flightsfrom.com/SIN-MEL", "note": "Dos hubs con gran conectividad."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/DXB-DPS", "destination_url": "https://www.flightsfrom.com/DPS-MEL", "note": "Frecuencias directas hacia Melbourne."},
+            {"code": "MNL", "name": "Manila", "hub_url": "https://www.flightsfrom.com/DXB-MNL", "destination_url": "https://www.flightsfrom.com/MNL-MEL", "note": "Alternativa vía Filipinas."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PER",
+      "name": "Perth",
+      "hubs": [
+        {
+          "code": "IST", "name": "Estambul",
+          "summary": "Perth está muy bien conectada con el Sudeste Asiático, creando puentes útiles desde Estambul.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/IST-SIN", "destination_url": "https://www.flightsfrom.com/SIN-PER", "note": "Conexión frecuente y eficiente hacia Perth."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/IST-DPS", "destination_url": "https://www.flightsfrom.com/DPS-PER", "note": "Bali–Perth tiene numerosas frecuencias."},
+            {"code": "BKK", "name": "Bangkok", "hub_url": "https://www.flightsfrom.com/IST-BKK", "destination_url": "https://www.flightsfrom.com/BKK-PER", "note": "Puente directo desde Tailandia."},
+            {"code": "KUL", "name": "Kuala Lumpur", "hub_url": "https://www.flightsfrom.com/IST-KUL", "destination_url": "https://www.flightsfrom.com/KUL-PER", "note": "Hub económico con varias aerolíneas hacia Perth."}
+          ]
+        },
+        {
+          "code": "DOH", "name": "Doha",
+          "summary": "Doha vuela directo a Perth y también permite stopovers por Asia.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/DOH-SIN", "destination_url": "https://www.flightsfrom.com/SIN-PER", "note": "Alta frecuencia hacia Perth."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/DOH-DPS", "destination_url": "https://www.flightsfrom.com/DPS-PER", "note": "Parada turística muy bien conectada."}
+          ]
+        },
+        {
+          "code": "DXB", "name": "Dubái",
+          "summary": "Dubái conecta directo con Perth y abre alternativas por el Sudeste Asiático.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/DXB-SIN", "destination_url": "https://www.flightsfrom.com/SIN-PER", "note": "Conectividad frecuente."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/DXB-DPS", "destination_url": "https://www.flightsfrom.com/DPS-PER", "note": "Muchas frecuencias hacia Perth."},
+            {"code": "KUL", "name": "Kuala Lumpur", "hub_url": "https://www.flightsfrom.com/DXB-KUL", "destination_url": "https://www.flightsfrom.com/KUL-PER", "note": "Alternativa económica por Malasia."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ADL",
+      "name": "Adelaide",
+      "hubs": [
+        {
+          "code": "IST", "name": "Estambul",
+          "summary": "Adelaide tiene menos conexiones internacionales; Singapur, Bali y Kuala Lumpur son puentes especialmente valiosos.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/IST-SIN", "destination_url": "https://www.flightsfrom.com/SIN-ADL", "note": "Principal puente asiático hacia Adelaide."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/IST-DPS", "destination_url": "https://www.flightsfrom.com/DPS-ADL", "note": "Parada turística con conexión directa final."},
+            {"code": "KUL", "name": "Kuala Lumpur", "hub_url": "https://www.flightsfrom.com/IST-KUL", "destination_url": "https://www.flightsfrom.com/KUL-ADL", "note": "Alternativa directa vía Malasia."}
+          ]
+        },
+        {
+          "code": "DOH", "name": "Doha",
+          "summary": "Doha conecta directamente con Adelaide y también permite añadir una escala asiática.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/DOH-SIN", "destination_url": "https://www.flightsfrom.com/SIN-ADL", "note": "Conexión sólida hacia Adelaide."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/DOH-DPS", "destination_url": "https://www.flightsfrom.com/DPS-ADL", "note": "Escala vacacional antes del tramo final."}
+          ]
+        },
+        {
+          "code": "DXB", "name": "Dubái",
+          "summary": "Dubái conecta con Adelaide y ofrece puentes turísticos por el Sudeste Asiático.",
+          "bridges": [
+            {"code": "SIN", "name": "Singapur", "hub_url": "https://www.flightsfrom.com/DXB-SIN", "destination_url": "https://www.flightsfrom.com/SIN-ADL", "note": "Alternativa por un hub de alta frecuencia."},
+            {"code": "DPS", "name": "Bali", "hub_url": "https://www.flightsfrom.com/DXB-DPS", "destination_url": "https://www.flightsfrom.com/DPS-ADL", "note": "Stopover turístico hacia Adelaide."},
+            {"code": "KUL", "name": "Kuala Lumpur", "hub_url": "https://www.flightsfrom.com/DXB-KUL", "destination_url": "https://www.flightsfrom.com/KUL-ADL", "note": "Puente adicional vía Malasia."}
+          ]
+        }
       ]
     }
   ],
   "last_verified": "2026-06-11",
-  "disclaimer": "Cada tramo aparece como vuelo directo en FlightsFrom. Esto no garantiza conexión protegida ni compra en un solo tiquete."
+  "disclaimer": "Cada tramo enlaza a FlightsFrom para comprobación. Esto no garantiza conexión protegida, operación diaria ni compra en un solo tiquete."
 }

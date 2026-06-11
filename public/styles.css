@@ -201,6 +201,13 @@ select {
   line-height: 1.6;
 }
 
+.hub-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.hub-controls select { width: auto; }
+
 .bridge-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -394,6 +401,9 @@ footer {
   #search-routes { grid-column: 1 / -1; }
   .layout { grid-template-columns: 1fr; }
   .bridge-grid { grid-template-columns: repeat(2, 1fr); }
+  .hub-section .section-heading { align-items: start; flex-direction: column; }
+  .hub-controls { width: 100%; }
+  .hub-controls select { flex: 1; }
   .map-column { position: static; }
 }
 
@@ -405,6 +415,8 @@ footer {
   .metrics { grid-template-columns: 1fr; margin-bottom: 40px; }
   .data-notice { align-items: start; flex-direction: column; margin-top: -18px; }
   .bridge-grid { grid-template-columns: 1fr; }
+  .hub-controls { width: 100%; flex-direction: column; }
+  .hub-controls select { width: 100%; }
   .bridge-card p { min-height: 0; }
   .section-heading { align-items: start; flex-direction: column; }
   .section-heading select { width: 100%; }
