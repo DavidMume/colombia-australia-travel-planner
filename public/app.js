@@ -108,6 +108,12 @@ function applyFilters() {
   const month = Number(document.getElementById("month").value);
   const sort = document.getElementById("sort").value;
 
+  const bridgeDest = document.getElementById("bridge-destination");
+  if (bridgeDest.value !== origin) {
+    bridgeDest.value = origin;
+    updateHubOptions();
+  }
+
   state.filtered = state.routes
     .filter(route =>
       route.origin === origin &&
