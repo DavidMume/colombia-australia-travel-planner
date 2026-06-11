@@ -42,7 +42,7 @@
       },
       "airlines_example": ["Turkish Airlines", "Korean Air", "Qantas"],
       "visa_complexity": "medium",
-      "visa_notes": "Turquía: e-visa o visa on arrival para colombianos (verificar). Corea: sin visa hasta 90 días (verificar). Australia: ETA requerida.",
+      "visa_notes": "Turquía: visa electrónica o visa al llegar para colombianos (verificar). Corea: sin visa hasta 90 días (verificar). Australia: ETA requerida.",
       "score": 82,
       "highlights": [
         "Estambul: mezcla única de Europa y Asia, gastronomía, arquitectura otomana",
@@ -88,7 +88,7 @@
       },
       "airlines_example": ["Qatar Airways"],
       "visa_complexity": "low",
-      "visa_notes": "Doha: tránsito generalmente sin visa. Para ciudad se puede obtener e-visa. Australia: ETA requerida.",
+      "visa_notes": "Doha: tránsito generalmente sin visa. Para visitar la ciudad se puede obtener una visa electrónica. Australia: ETA requerida.",
       "score": 85,
       "highlights": [
         "Qatar Airways: una de las mejores aerolíneas del mundo",
@@ -180,7 +180,7 @@
       },
       "airlines_example": ["Turkish Airlines", "Singapore Airlines"],
       "visa_complexity": "medium",
-      "visa_notes": "Turquía: e-visa o visa on arrival (verificar). Singapur: generalmente sin visa. Australia: ETA requerida.",
+      "visa_notes": "Turquía: visa electrónica o visa al llegar (verificar). Singapur: generalmente sin visa. Australia: ETA requerida.",
       "score": 84,
       "highlights": [
         "Combina dos de las mejores aerolíneas del mundo",

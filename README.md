@@ -17,9 +17,9 @@ Planear un vuelo desde Colombia hasta Australia no es sencillo: no hay vuelos di
 
 Este proyecto resuelve eso con:
 
-- **10+ rutas precargadas** desde Bogotá, Medellín y Cali hacia Brisbane, Sídney, Melbourne y Perth
+- **10+ rutas precargadas** desde Bogotá, Medellín y Cali hacia Brisbane, Sydney, Melbourne y Perth
 - **Mapa interactivo** que muestra rutas y aeropuertos de escala en el mundo
-- **Score inteligente** que evalúa cada ruta por número de escalas, potencial turístico, complejidad de visa y temporada
+- **Puntuación inteligente** que evalúa cada ruta por número de escalas, potencial turístico, complejidad de visa y temporada
 - **Web app con Streamlit** para filtrar, comparar y explorar rutas visualmente
 - **Notebook exploratorio** para análisis de datos y visualizaciones con Plotly
 - **Arquitectura preparada** para integrar APIs reales de vuelos en el futuro
@@ -28,7 +28,7 @@ Este proyecto resuelve eso con:
 ```
 Bogotá (BOG) → Estambul (IST) → Seúl (ICN) → Brisbane (BNE)
 ```
-Score: 82/100 · 38h · Potencial turístico: Alto · Visa: Media complejidad
+Puntuación: 82/100 · 38 h · Potencial turístico: alto · Visa: complejidad media
 
 ---
 
@@ -157,7 +157,7 @@ jupyter lab
 ```json
 {
   "id": "COL-AUS-011",
-  "name": "Bogotá → Bangkok → Sídney",
+  "name": "Bogotá → Bangkok → Sydney",
   "origin": "BOG",
   "destination": "SYD",
   "stopovers": ["BKK"],
@@ -166,7 +166,7 @@ jupyter lab
   "tourist_potential": "high",
   "season_recommendations": {
     "best_months": [11, 12, 1, 2],
-    "notes": "Temporada seca en Tailandia (nov-feb). Verano en Sídney."
+    "notes": "Temporada seca en Tailandia (nov-feb). Verano en Sydney."
   },
   "airlines_example": ["Thai Airways", "Qantas"],
   "visa_complexity": "medium",

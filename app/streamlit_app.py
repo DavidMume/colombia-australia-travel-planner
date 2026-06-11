@@ -40,7 +40,7 @@ airports, routes = get_data()
 COLOMBIA_ORIGINS = {"BOG": "Bogotá (BOG)", "MDE": "Medellín (MDE)", "CLO": "Cali (CLO)"}
 AUSTRALIA_DESTINATIONS = {
     "BNE": "Brisbane (BNE)",
-    "SYD": "Sídney (SYD)",
+    "SYD": "Sydney (SYD)",
     "MEL": "Melbourne (MEL)",
     "PER": "Perth (PER)",
 }
@@ -136,7 +136,7 @@ with tab_routes:
             season_msg = get_season_recommendation(route, departure_month)
             with st.expander(
                 f"{'⭐' if breakdown.total >= 85 else '✈️'} {route.name}  —  "
-                f"Score: {breakdown.total:.0f}/100 ({breakdown.label})",
+                f"Puntuación: {breakdown.total:.0f}/100 ({breakdown.label})",
                 expanded=(ranked.index((route, breakdown)) == 0),
             ):
                 c1, c2, c3 = st.columns(3)
@@ -195,21 +195,21 @@ with tab_compare:
 
         column_rename = {
             "id": "ID", "name": "Ruta", "origin": "Origen", "destination": "Destino",
-            "stopovers": "Escalas", "total_stops": "Nº Escalas",
+            "stopovers": "Escalas", "total_stops": "N.º de escalas",
             "duration_hours": "Duración (h)", "tourist_potential": "Turismo",
-            "visa_complexity": "Visa", "score": "Score Base",
-            "airlines": "Aerolíneas", "score_calculado": "Score", "calificacion": "Calificación",
+            "visa_complexity": "Visa", "score": "Puntuación base",
+            "airlines": "Aerolíneas", "score_calculado": "Puntuación", "calificacion": "Calificación",
         }
         df.rename(columns=column_rename, inplace=True)
 
         st.dataframe(
-            df[["Score", "Calificación", "Ruta", "Nº Escalas", "Duración (h)", "Turismo", "Visa", "Aerolíneas"]],
+            df[["Puntuación", "Calificación", "Ruta", "N.º de escalas", "Duración (h)", "Turismo", "Visa", "Aerolíneas"]],
             use_container_width=True,
             hide_index=True,
         )
 
-        st.markdown("### Distribución de scores")
-        chart_data = pd.DataFrame({"Ruta": df["Ruta"], "Score": df["Score"]}).set_index("Ruta")
+        st.markdown("### Distribución de puntuaciones")
+        chart_data = pd.DataFrame({"Ruta": df["Ruta"], "Puntuación": df["Puntuación"]}).set_index("Ruta")
         st.bar_chart(chart_data)
 
 # ─────────────────────────────────────────────────────────────── Tab: Aeropuertos
