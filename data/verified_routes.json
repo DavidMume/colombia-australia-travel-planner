@@ -88,6 +88,104 @@
       ]
     },
     {
+      "id": "BNE-BOG-LAX-MEX",
+      "name": "Brisbane → Los Ángeles → Ciudad de México → Bogotá",
+      "origin": "BNE",
+      "destination": "BOG",
+      "stopovers": ["LAX", "MEX"],
+      "total_stops": 2,
+      "approximate_duration_hours": 25,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 9, 10, 11, 12],
+        "notes": "Los tres tramos aparecen vigentes. Revisa cuidadosamente los tiempos de conexión y los requisitos migratorios de Estados Unidos."
+      },
+      "airlines_example": ["Qantas", "Aeromexico", "Avianca"],
+      "visa_complexity": "high",
+      "visa_notes": "Estados Unidos normalmente exige visa válida incluso para tránsito. Verifica también los requisitos de entrada o tránsito de México.",
+      "score": 75,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "BNE",
+          "to": "LAX",
+          "duration": "13h 30m",
+          "airlines": ["Qantas", "Delta Air Lines"],
+          "source_url": "https://www.flightsfrom.com/BNE-LAX"
+        },
+        {
+          "from": "LAX",
+          "to": "MEX",
+          "duration": "4h 34m",
+          "airlines": ["Aeromexico", "American Airlines", "Volaris", "VivaAerobus"],
+          "source_url": "https://www.flightsfrom.com/LAX-MEX"
+        },
+        {
+          "from": "MEX",
+          "to": "BOG",
+          "duration": "4h 35m",
+          "airlines": ["Aeromexico", "Avianca"],
+          "source_url": "https://www.flightsfrom.com/MEX-BOG"
+        }
+      ],
+      "highlights": [
+        "Incluye Los Ángeles como escala por Estados Unidos",
+        "Ciudad de México ofrece una segunda parada turística",
+        "Todos los tramos directos aparecen vigentes en FlightsFrom"
+      ]
+    },
+    {
+      "id": "BNE-BOG-SFO-MEX",
+      "name": "Brisbane → San Francisco → Ciudad de México → Bogotá",
+      "origin": "BNE",
+      "destination": "BOG",
+      "stopovers": ["SFO", "MEX"],
+      "total_stops": 2,
+      "approximate_duration_hours": 25,
+      "tourist_potential": "high",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 9, 10, 11],
+        "notes": "Los tres tramos aparecen vigentes. Revisa cuidadosamente los tiempos de conexión y los requisitos migratorios de Estados Unidos."
+      },
+      "airlines_example": ["United Airlines", "Aeromexico", "Avianca"],
+      "visa_complexity": "high",
+      "visa_notes": "Estados Unidos normalmente exige visa válida incluso para tránsito. Verifica también los requisitos de entrada o tránsito de México.",
+      "score": 74,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "BNE",
+          "to": "SFO",
+          "duration": "13h 10m",
+          "airlines": ["United Airlines"],
+          "source_url": "https://www.flightsfrom.com/BNE-SFO"
+        },
+        {
+          "from": "SFO",
+          "to": "MEX",
+          "duration": "4h 40m",
+          "airlines": ["Aeromexico", "United Airlines"],
+          "source_url": "https://www.flightsfrom.com/SFO-MEX"
+        },
+        {
+          "from": "MEX",
+          "to": "BOG",
+          "duration": "4h 35m",
+          "airlines": ["Aeromexico", "Avianca"],
+          "source_url": "https://www.flightsfrom.com/MEX-BOG"
+        }
+      ],
+      "highlights": [
+        "Incluye San Francisco como escala por Estados Unidos",
+        "Ciudad de México ofrece una segunda parada turística",
+        "Todos los tramos directos aparecen vigentes en FlightsFrom"
+      ]
+    },
+    {
       "id": "BNE-BOG-AKL-SCL",
       "name": "Brisbane → Auckland → Santiago → Bogotá",
       "origin": "BNE",
@@ -513,6 +611,48 @@
         "Una sola escala",
         "Qatar Airways conecta directamente Melbourne con Doha",
         "Doha permite una parada turística opcional"
+      ]
+    },
+    {
+      "id": "MEL-BOG-SCL",
+      "name": "Melbourne → Santiago → Bogotá",
+      "origin": "MEL",
+      "destination": "BOG",
+      "stopovers": ["SCL"],
+      "total_stops": 1,
+      "approximate_duration_hours": 19,
+      "tourist_potential": "medium",
+      "season_recommendations": {
+        "best_months": [1, 2, 3, 10, 11, 12],
+        "notes": "LATAM opera el tramo Melbourne–Santiago. Santiago es una excelente escala con mucho que ver. Verifica frecuencia del vuelo MEL–SCL ya que no opera todos los días."
+      },
+      "airlines_example": ["LATAM", "Avianca"],
+      "visa_complexity": "low",
+      "visa_notes": "Chile: colombianos no requieren visa (verificar acuerdos vigentes). Colombia: sin restricciones para retornar.",
+      "score": 86,
+      "availability_status": "verified",
+      "available_from": null,
+      "source_name": "Tramos directos verificados en FlightsFrom",
+      "segments": [
+        {
+          "from": "MEL",
+          "to": "SCL",
+          "duration": "11h 30m",
+          "airlines": ["LATAM"],
+          "source_url": "https://www.flightsfrom.com/MEL-SCL"
+        },
+        {
+          "from": "SCL",
+          "to": "BOG",
+          "duration": "6h 25m",
+          "airlines": ["Avianca", "LATAM"],
+          "source_url": "https://www.flightsfrom.com/SCL-BOG"
+        }
+      ],
+      "highlights": [
+        "LATAM opera vuelo directo Melbourne–Santiago",
+        "Una sola escala sin necesidad de visa adicional",
+        "Santiago: excelente ciudad para una parada turística en el camino"
       ]
     },
     {
@@ -953,19 +1093,19 @@
       ]
     },
     {
-      "id": "SYD-BOG-LAX",
-      "name": "Sídney → Los Ángeles → Bogotá",
+      "id": "SYD-BOG-LAX-MEX",
+      "name": "Sídney → Los Ángeles → Ciudad de México → Bogotá",
       "origin": "SYD",
       "destination": "BOG",
-      "stopovers": ["LAX"],
-      "total_stops": 1,
-      "approximate_duration_hours": 20,
+      "stopovers": ["LAX", "MEX"],
+      "total_stops": 2,
+      "approximate_duration_hours": 25,
       "tourist_potential": "medium",
       "season_recommendations": {
         "best_months": [1, 2, 3, 9, 10, 11, 12],
-        "notes": "Los Ángeles tiene buen clima todo el año. Verifica tiempos de conexión en LAX, que puede ser concurrido."
+        "notes": "Los Ángeles y Ciudad de México permiten convertir ambas conexiones en paradas turísticas. Verifica tiempos de conexión."
       },
-      "airlines_example": ["Qantas", "American Airlines", "Avianca"],
+      "airlines_example": ["Qantas", "Aeromexico", "Avianca"],
       "visa_complexity": "high",
       "visa_notes": "Se requiere visa de turista (B-1/B-2) o visa de tránsito (C) para ciudadanos colombianos que transiten o ingresen a EE.UU. Verifica con la embajada antes de reservar.",
       "score": 72,
@@ -982,32 +1122,39 @@
         },
         {
           "from": "LAX",
+          "to": "MEX",
+          "duration": "4h 34m",
+          "airlines": ["Aeromexico", "American Airlines", "Volaris", "VivaAerobus"],
+          "source_url": "https://www.flightsfrom.com/LAX-MEX"
+        },
+        {
+          "from": "MEX",
           "to": "BOG",
-          "duration": "5h 40m",
-          "airlines": ["Avianca", "American Airlines"],
-          "source_url": "https://www.flightsfrom.com/LAX-BOG"
+          "duration": "4h 35m",
+          "airlines": ["Aeromexico", "Avianca"],
+          "source_url": "https://www.flightsfrom.com/MEX-BOG"
         }
       ],
       "highlights": [
         "Qantas opera vuelo directo diario Sídney–Los Ángeles",
-        "Avianca conecta Los Ángeles directamente con Bogotá",
+        "Conexiones vigentes vía Ciudad de México hacia Bogotá",
         "Requiere visa estadounidense"
       ]
     },
     {
-      "id": "SYD-BOG-SFO",
-      "name": "Sídney → San Francisco → Bogotá",
+      "id": "SYD-BOG-SFO-MEX",
+      "name": "Sídney → San Francisco → Ciudad de México → Bogotá",
       "origin": "SYD",
       "destination": "BOG",
-      "stopovers": ["SFO"],
-      "total_stops": 1,
-      "approximate_duration_hours": 22,
+      "stopovers": ["SFO", "MEX"],
+      "total_stops": 2,
+      "approximate_duration_hours": 26,
       "tourist_potential": "medium",
       "season_recommendations": {
         "best_months": [1, 2, 3, 9, 10, 11],
-        "notes": "San Francisco tiene clima templado. Confirma disponibilidad de conexión directa SFO–BOG con Avianca."
+        "notes": "San Francisco y Ciudad de México permiten convertir ambas conexiones en paradas turísticas. Verifica tiempos de conexión."
       },
-      "airlines_example": ["United", "Air New Zealand", "Avianca"],
+      "airlines_example": ["United", "Air New Zealand", "Aeromexico", "Avianca"],
       "visa_complexity": "high",
       "visa_notes": "Se requiere visa de turista (B-1/B-2) o visa de tránsito (C) para ciudadanos colombianos que transiten o ingresen a EE.UU.",
       "score": 70,
@@ -1024,32 +1171,39 @@
         },
         {
           "from": "SFO",
+          "to": "MEX",
+          "duration": "4h 40m",
+          "airlines": ["Aeromexico", "United Airlines"],
+          "source_url": "https://www.flightsfrom.com/SFO-MEX"
+        },
+        {
+          "from": "MEX",
           "to": "BOG",
-          "duration": "6h 25m",
-          "airlines": ["Avianca", "United"],
-          "source_url": "https://www.flightsfrom.com/SFO-BOG"
+          "duration": "4h 35m",
+          "airlines": ["Aeromexico", "Avianca"],
+          "source_url": "https://www.flightsfrom.com/MEX-BOG"
         }
       ],
       "highlights": [
         "United y Air New Zealand operan Sídney–San Francisco",
-        "Conexión directa hacia Bogotá desde San Francisco",
+        "Conexiones vigentes vía Ciudad de México hacia Bogotá",
         "Requiere visa estadounidense"
       ]
     },
     {
-      "id": "MEL-BOG-LAX",
-      "name": "Melbourne → Los Ángeles → Bogotá",
+      "id": "MEL-BOG-LAX-MEX",
+      "name": "Melbourne → Los Ángeles → Ciudad de México → Bogotá",
       "origin": "MEL",
       "destination": "BOG",
-      "stopovers": ["LAX"],
-      "total_stops": 1,
-      "approximate_duration_hours": 22,
+      "stopovers": ["LAX", "MEX"],
+      "total_stops": 2,
+      "approximate_duration_hours": 27,
       "tourist_potential": "medium",
       "season_recommendations": {
         "best_months": [1, 2, 3, 9, 10, 11, 12],
-        "notes": "Los Ángeles tiene buen clima todo el año. Verifica tiempos de conexión y disponibilidad de vuelo LAX–BOG."
+        "notes": "Los Ángeles y Ciudad de México permiten convertir ambas conexiones en paradas turísticas. Verifica tiempos de conexión."
       },
-      "airlines_example": ["Qantas", "Avianca", "American Airlines"],
+      "airlines_example": ["Qantas", "Aeromexico", "Avianca"],
       "visa_complexity": "high",
       "visa_notes": "Se requiere visa de turista (B-1/B-2) o visa de tránsito (C) para ciudadanos colombianos que transiten o ingresen a EE.UU.",
       "score": 71,
@@ -1066,15 +1220,22 @@
         },
         {
           "from": "LAX",
+          "to": "MEX",
+          "duration": "4h 34m",
+          "airlines": ["Aeromexico", "American Airlines", "Volaris", "VivaAerobus"],
+          "source_url": "https://www.flightsfrom.com/LAX-MEX"
+        },
+        {
+          "from": "MEX",
           "to": "BOG",
-          "duration": "5h 40m",
-          "airlines": ["Avianca", "American Airlines"],
-          "source_url": "https://www.flightsfrom.com/LAX-BOG"
+          "duration": "4h 35m",
+          "airlines": ["Aeromexico", "Avianca"],
+          "source_url": "https://www.flightsfrom.com/MEX-BOG"
         }
       ],
       "highlights": [
         "Qantas opera vuelo directo Melbourne–Los Ángeles",
-        "Avianca conecta Los Ángeles directamente con Bogotá",
+        "Conexiones vigentes vía Ciudad de México hacia Bogotá",
         "Requiere visa estadounidense"
       ]
     },
