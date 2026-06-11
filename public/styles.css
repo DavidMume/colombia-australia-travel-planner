@@ -102,33 +102,36 @@ main {
 
 .filters {
   display: grid;
-  grid-template-columns: repeat(4, 1fr) auto auto;
+  grid-template-columns: repeat(4, 1fr) auto;
   gap: 16px;
   align-items: end;
-  padding: 22px;
+  padding: 22px 22px 16px;
   border-radius: 18px;
 }
 
 .us-toggle {
+  grid-column: 1 / -1;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: 6px;
-  font-size: .72rem;
-  font-weight: 800;
-  letter-spacing: .06em;
+  justify-content: flex-end;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .04em;
   text-transform: uppercase;
   color: var(--muted);
   cursor: pointer;
-  white-space: nowrap;
-  padding-bottom: 2px;
 }
 
 .us-toggle input[type="checkbox"] {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   cursor: pointer;
   accent-color: var(--orange);
+  flex-shrink: 0;
 }
 
 .us-toggle em {
